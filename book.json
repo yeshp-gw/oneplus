@@ -1,0 +1,173 @@
+{
+                        "title": "北京格林威尔科技发展有限公司",                     
+                        "language": "zh-hans",
+                        "author" : "yeshp",
+                        "gitbook": "3.2.3",
+                        "styles": {
+                                                             "website": "styles/custom.css"
+                                      },
+                        "links" : {
+                                    "sidebar" : {
+                                                            "GW Home Page":"http://www.gwtt.com/"
+                                                     }
+                                      },
+                                                                                                            
+                                          "plugins": [ 
+                                                                 "back-to-top-button",
+                                                                  "alerts",
+                                                                  "splitter",
+                                                                  "hide-element",
+                                                                  "audio_image",
+                                                                  "code",
+                                                                  "insert-logo",
+                                                                  "-sharing","sharing-plus",
+                                                                  "-lunr", "-search", "search-pro",
+                                                                  "custom-favicon",
+                                                                  "anchor-navigation-ex",
+                                                                  "github",
+                                                                  "flexible-alerts",
+                                                                  "auto-scroll-table",
+                                                                  "flexible-alerts",
+                                                                  "exercises",
+                                                                  "quizzes",
+                                                                  "prism-themes",
+                                                                  "-highlight",
+                                                                  "charts",
+                                                                  "youtube",
+                                                                  "katex",
+                                                                  "expandable-chapters",
+                                                                  "flexible-alerts",
+                                                                  "advanced-emoji",
+                                                                  "copy-code-button",
+                                                                  "pageview-count",
+                                                                  "tbfed-pagefooter",
+                                                                  "-page-toc-button",
+                                                                  "-ancre-navigation",
+                                                                  "sectionx"
+
+                                                                  
+                                                                  
+                                                              
+                                                                  
+                                                                 
+                                                                 
+                                                                 
+                                                                    	
+
+                                                            ],
+                                                 
+
+                                         "pluginsConfig": {      "favicon": "icon/favicon.ico",                                               
+                                        
+                                                                                                                                    
+                                                                "hide-element": { 
+                                                                                 "elements":  [ 
+                                                                                                ".gitbook-link"
+                                                                                                    ]           
+                                                                                                    
+                                                                                        },
+
+                                                                "insert-logo":   {
+                                                                                    "url": "image/gw.png",
+                                                                                    "style": "background: none; max-height: 80px; min-height: 30px"
+                                                                                 },
+
+
+                                                                "sharing": {
+                                                                            "weibo": false,
+                                                                            "google": false,
+                                                                            "twiter": false,
+                                                                                                         
+                                                                            "all": ["qq"]
+                                                                            } ,
+
+
+                                                           "anchor-navigation-ex":  {
+                                                                                       "showLevel": false, 
+                                                                                       "showGoTop": false 
+                                                                                                    } ,
+                                                                                   "github":  {
+                                                                                                    "url": "https://github.com/yeshp-gw/version/releases"       
+                                                                                               },
+                                                                                    "code": {
+                                                                                                            "copyButtons": false  
+                                                                                            },
+                                                                                    "prism":  {
+                                                                                                          "css":["prismjs/themes/prism-solarizedlight.css"],
+                                                                                                          "lang": {
+                                                                                                                     "flow": "typescript"
+                                                                                                                  },
+                                                                                                        "ignore": [
+                                                                                                                    "mermaid",
+                                                                                                                       "eval-js"
+                                                                                                                  ]
+                                                                                              },
+                                                                                    "chart":  {
+                                                                                                                "type": "c3"
+                                                                                                    } ,
+                                                                         "flexible-alerts": {"style": "callout",
+                                                                                                        "answer": {
+                                                                                                                     "label":  "回复:"
+                                                                                                                 },
+                                                                                               "warning": { 
+                                                                                                                    "label":  "警告"
+                                                                                                                  },
+                                                                                                "danger": {
+                                                                                                                    "label": "危险"
+                                                                                                                },
+                                                                                             "question": {
+                                                                                                                "label":  "问题",
+                                                                                                                "icon":  "fa fa-question-circle",
+                                                                                                                "className":  "info"
+                                                                                                               },
+                                                                                          "comment": {
+                                                                                                                 "label":  "参数",
+                                                                                                                  "icon":  "fa fa-comments",
+                                                                                                                  "className":  "info"
+
+                                                                                                               }},
+                                                                  "tbfed-pagefooter": {
+                                                                                                               "copyright":"Copyright &copy 2023",
+                                                                                                               "modify_label": "该文章修订时间：",
+                                                                                                               "modify_format": "YYYY-MM-DD HH:mm:ss"
+
+                                                                                                   },
+                                                                    "page-toc-button": {
+                                                                                                      "maxTocDepth": 2,  
+                                                                                                      "minTocSize": 2    
+                                                                                                   },
+                                                                            "sectionx": {
+                                                                                "tag": "b"
+                                                                            }
+                                                                    
+
+                                                                        
+                                                                           
+
+                                                                                  
+                                                                                            
+
+                                                                              
+                                                                                  
+                                                                                                                                                                     
+                                                                           
+                                                                                                                                                                                 
+                                                                                                              
+
+
+
+                                         }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
