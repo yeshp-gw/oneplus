@@ -216,19 +216,19 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
 ## 光器件衰耗
 
- &emsp;AWG：`<=6dBm` 
+&emsp;**AWG**: ![Static Badge](https://img.shields.io/badge/TX-%3C%3D6dB-blue),![Static Badge](https://img.shields.io/badge/RX-%3C%3D6dB-blue)
 
-&emsp;OLP:   TX损耗`<=4db`，RX损耗`<=1.5db`<font face="仿宋">(TX损耗指分光器衰减，RX损耗是光开关衰减)</font>
+&emsp;**OLP**:  ![Static Badge](https://img.shields.io/badge/TX-%3C%3D4dB-blue),![Static Badge](https://img.shields.io/badge/RX-%3C%3D1.5dB-blue)(<font face="仿宋">TX损耗指分光器衰减，RX损耗是光开关衰减)</font>
 
-&emsp;OA ：“P”: 增益 `8-18dbm`，"Q"：增益`15-25dbm`，"R":增益`22-35dbm`
+&emsp;**OA**: ![Static Badge](https://img.shields.io/badge/%E2%80%9CP%E2%80%9D-%E5%A2%9E%E7%9B%8A_8~18dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CQ%E2%80%9D-%E5%A2%9E%E7%9B%8A_15~25dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CR%E2%80%9D-%E5%A2%9E%E7%9B%8A_22~35dB-blue)
 
 ## 单波最佳入纤光功率<font face="仿宋" size=2>(工程经验值)</font>
 
-&emsp;400G-16QAM：`3dBm`
+&emsp;![Static Badge](https://img.shields.io/badge/400G-16QAM-green)：`3dBm`
 
-&emsp;200G-16QAM：`1dBm`
+&emsp;![Static Badge](https://img.shields.io/badge/200G-16QAM-green)：`1dBm`
 
-&emsp;200G-QPSK：`2.5dBm`
+&emsp;![Static Badge](https://img.shields.io/badge/200G-QPSK-green)：`2.5dBm`
 
 ## 调测<font face="仿宋" size=2>（仅记录多波光功率调测）</font>
 
@@ -242,17 +242,17 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
 
 
-单波：1--->2 ：0dbm-5dbm=-5<font color=red>db</font>    
+单波：1--->2 ：0dBm-5<font color=red>dB</font>=-5dBm   
 
-&emsp;2--->3：-5dbm-2dbm=-7dbm 
+&emsp;2--->3：-5dBm-2<font color=red>dB</font>=-7dBm 
 
-&emsp;3--->4：-7dbm+10<font color=red>db</font>(增益补偿10db)=3dbm
+&emsp;3--->4：-7dBm+10<font color=red>dB</font>(增益补偿10dB)=3dBm
 
-&emsp;4--->5：3dbm-12<font color=red>db</font>(线路损耗)=-9dbm
+&emsp;4--->5：3dBm-12<font color=red>dB</font>(线路损耗)=-9dBm
 
-&emsp;5--->6：-9dbm+12<font color=red>db</font>(端放补偿)=3dbm
+&emsp;5--->6：-9dBm+12<font color=red>dB</font>(端放补偿)=3dBm
 
-&emsp;6--->7： 3dbm-5<font color=red>db</font>=-2dbm   <font color=white>----</font> 故，cfp收-2dbm
+&emsp;6--->7： 3dBm-5<font color=red>dB</font>=-2dBm   <font color=white>----</font> 故，cfp收-2dBm
 
 推广到多波：
 
@@ -286,14 +286,15 @@ interface och  <slot/1>                  ## 进入CFP模块
 set frequency 191.4                      ##  CFP模块频率设置
 set  powerconfig -2.00                   ## 设置CFP模块发光
 set channel spacing [100GHz|50GHz]       ## 设置步长/频率
-set line loopback none/inner/outer       ## 设置线路测环回
+set line loopback none/inner/outer       ## 设置线路测环回                               
+```
+
+```
 ntwk-type [16qam|8qam|qpsk]              ## 设置线路测码型转换
 mode [otuc1|otuc2|otuc4]                 ## 配置线路测业务模式
 interface ethernet <slot/1>              ## 进入客户侧端口
 mode [10ge_lan|10ge_wan|stm64|otu2|100g|100g-nonfec|otu4]    ## 配置10ge业务模式
 loopback mode none/inner/outer           ## 配置客户侧环回
-am pri_switch_threshold 5 -18.00         ##主用光功率门限值
-am sec_switch_threshold 5 -18.00         ##备用光功率门限值                               
 ```
 
 - 进入备用主控命令
