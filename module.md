@@ -15,7 +15,16 @@
 |   发光范围    | <font face="等线" color="red">-4.3~-4.5dBm</font> | <font face="等线" color="red">-6.5~2.5dBm</font> | <font face="等线" color="red">-6~-0.5dBm</font> |  <font face="等线" color="red">0~5dBm</font>  |
 |   收光范围    |        <font face="等线">≤-10.6dBm</font>         |        <font face="等线">≤-11.5dBm</font>        |        <font face="等线">≤-15dBm</font>         |       <font face="等线">≤-15dBm</font>        |
 
-<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202311101649778.png"/> 
+| 指标                          |                        Lumentum 400G                         |                          光迅 400G                           |      lumentum 200G       |                光迅 200G                 |                FOC 200G                 |
+| ----------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------: | :--------------------------------------: | :-------------------------------------: |
+| GW PN                         |                <strong>GWS-CQHD-LUN</strong>                 |                <strong>GWS-CQHD-GXA</strong>                 | <strong>原厂PN</strong>  |      <strong>GWS-CDHD-GXA</strong>       |              GWS-CDHD-FON               |
+| 发光范围                      |                            -5~0dB                            |                           -10~3dB                            |          -5~1dB          |                 -10~1dB                  |                 -5~0dB                  |
+| 收光范围                      | 400G  16QAM -13~1dB     200G QPSK-28~1dB     200G 16QAM -22~1dB | 400G  16QAM -13~1dB     200G QPSK -28~1dB     200G 16QAM -23~1dB |   200G  16QAM -18~0dB    |            200G 16QAM -23~1dB            |                 -20~1dB                 |
+| 发光频率范围                  |                       191.15~196.1THz                        |                      191.275~196.125THz                      |    191.15~196.1125THz    |            191.275~196.125THz            |             191.3~196.1THz              |
+| 背靠背OSNR（EOL）             | 400G  16QAM 22.9dB     200G QPSK 15dB     200G 16QAM 20.3dB  | 400G  16QAM 23.5dB     200G QPSK 15.7dB     200G 16QAM 20dB  |     200G  16QAM 20dB     |            200G  16QAM 20.5dB            | 200G  QPSK 14.6dB     200G 16QAM 20.2dB |
+| DSP厂家                       |                             NEL                              |                            Acacia                            |          Acacia          |                  Acacia                  |                   NEL                   |
+| 是否支持混传                  |                              Y                               |                              N                               |            Y             |                    N                     |                    Y                    |
+| 正常工     作温度（室温25度） | 400G模式~1#最高温度70.25度，fan-speed  8     200G+PUSD~3#最高温度60度，fan-speed 4 |            400G模式~1#最高温度61度，fan-speed  4             | 未测试，200G可以满足要求 | 未测试，依据400G测试结果推测可以满足要求 |           1/5槽位温度小于50度           |
 
 表是测试部10.23日更新！
 

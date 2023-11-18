@@ -2,7 +2,12 @@
 
 ### 开局
 
-{% youtube %}https://www.youtube.com/watch?v=SUxayu7auak&ab_channel=GWTT {% endyoutube %}
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d65f2c833270835012528774149/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d65f2c833270835012528774149/WOyViHIXEnsA.mp4" type='video/mp4' >
+    </video>
+
+https://www.youtube.com/watch?v=SUxayu7auak&ab_channel=GWTT 
 
 ##内配视频##
 
@@ -37,9 +42,12 @@ VC4业务不需要使能，VC3、VC12业务需要使能低阶时隙。
 
 附：
 
-{% youtube %}https://youtu.be/KKTGzT-28_w?si=sdSUYroRN1pOovR3 {% endyoutube %}
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/1741726f3270835012529211421/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/1741726f3270835012529211421/nayS2DhU1B0A.mp4" type='video/mp4' >
+    </video>
 
- ##内培视频##
+https://youtu.be/KKTGzT-28_w?si=sdSUYroRN1pOovR3 ##内培视频## 
 
 ------
 
@@ -75,7 +83,12 @@ VC4业务不需要使能，VC3、VC12业务需要使能低阶时隙。
 
 ![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/EOO%E6%B1%87%E8%81%9A.png)
 
-{% youtube %}https://www.youtube.com/watch?v=PvtqdJq1YVc&ab_channel=GWTT {% endyoutube %}
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/518b81153270835012530382345/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/518b81153270835012530382345/yTsLAV4KJcUA.mp4" type='video/mp4' >
+    </video>
+
+https://www.youtube.com/watch?v=PvtqdJq1YVc&ab_channel=GWTT
 
   ##内培视频##
 
@@ -189,6 +202,17 @@ VC4业务不需要使能，VC3、VC12业务需要使能低阶时隙。
 
 参考[【端口保护】](#jump) 内容！！
 
-{% youtube %}
-https://www.youtube.com/watch?v=8hAvxhcTDMg&ab_channel=GWTT
-{% endyoutube %}
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d6066ce13270835012528727680/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d6066ce13270835012528727680/NYkMNLq7nA4A.mp4" type='video/mp4' >
+    </video>
+
+
+https://www.youtube.com/watch?v=8hAvxhcTDMg&ab_channel=GWTT##内陪视频##
+
+### 绕接
+
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d17e27c83270835012528543979/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d17e27c83270835012528543979/8omkRkiFIfIA.mp4" type='video/mp4' >
+    </video>

@@ -60,9 +60,10 @@
 
 <div align='center' ><font size=3>现场图</font></div>
 
-{% youtube %}
-https://youtube.com/shorts/_nw_C2xk4dk
-{% endyoutube %}
+<video id="my-video" class="video-js" controls preload="auto" width="28%"
+poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d269f43e3270835012416384556/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d269f43e3270835012416384556/OhbhjiFevoIA.mp4" type='video/mp4' >
+    </video>https://youtube.com/shorts/_nw_C2xk4dk
 
 总结：  就学会了一个上网管(B039版本网管方式变了) 、倒换阈值的设置、延迟时间设置、打环命令、计算光路提升了下，学会了写路由等。其他再补充。
 

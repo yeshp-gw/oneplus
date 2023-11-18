@@ -6,7 +6,7 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
 功率控制原理：光功足够强的前提下，不引起非线性效应。
 
-## 光器件衰耗
+### 光器件衰耗
 
 &emsp;**AWG**: ![Static Badge](https://img.shields.io/badge/TX-%3C%3D6dB-blue),![Static Badge](https://img.shields.io/badge/RX-%3C%3D6dB-blue)
 
@@ -14,7 +14,7 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
 &emsp;**OA**: ![Static Badge](https://img.shields.io/badge/%E2%80%9CP%E2%80%9D-%E5%A2%9E%E7%9B%8A_8~18dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CQ%E2%80%9D-%E5%A2%9E%E7%9B%8A_15~25dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CR%E2%80%9D-%E5%A2%9E%E7%9B%8A_22~35dB-blue)
 
-## 单波最佳入纤光功率<font face="仿宋" size=2>(工程经验值)</font>
+### 单波最佳入纤光功率<font face="仿宋" size=2>(工程经验值)</font>
 
 &emsp;![Static Badge](https://img.shields.io/badge/400G-16QAM-green)：`3dBm`
 
@@ -22,7 +22,7 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
 &emsp;![Static Badge](https://img.shields.io/badge/200G-QPSK-green)：`2.5dBm`
 
-## 调测<font face="仿宋" size=2>（仅记录多波光功率调测）</font>
+### 调测<font face="仿宋" size=2>（仅记录多波光功率调测）</font>
 
 <div align="center"><img src="https://s2.loli.net/2023/09/21/JlYmkqAoH6LQBrs.png"  style="zoom:85%;" /></div>
 
@@ -50,7 +50,7 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
 <center>$${\text{多波}}={\text{单波}}+10\lg^n(n{\text{为波道数目}})$$</center>
 
-## OLP保护板<font face="仿宋" size=3>（暂不支持双端倒换）</font>
+### OLP保护板<font face="仿宋" size=3>（暂不支持双端倒换）</font>
 
 > <font face="仿宋" >双向倒换需要使用APS信令通道进行协议报文交互，APS 信令通道可以使用ODUk开销中的APS/PCC字段来实现，也可以使用光监控通道，通过IP数据包的方式来实现。</font>
 
@@ -71,7 +71,7 @@ am pri_switch_threshold 5 -18.00          ##主用光功率门限值
 am sec_switch_threshold 5 -18.00          ##备用光功率门限值
 ```
 
-## 一些常用命令汇总
+### 一些常用命令汇总
 
 ```
 interface och  <slot/1>                  ## 进入CFP模块
@@ -117,7 +117,7 @@ enable
 
 # OTN运维相关
 
-## 改制
+### 改制
 
 ###### ***`EOPC126`改制为`EOSC126`**
 
@@ -160,7 +160,7 @@ V3版本：
 
 
 
-## 更改
+### 更改
 
 ***更改`NEID`和系统`MAC`***
 
@@ -184,11 +184,11 @@ GPN7600(config)#ip address xxx.xxx.xxx.xxx/24
 GPN7600(config)# dcn ip xxx.xxx.xxx.xxx/24        // 掩码按照规划 //
 ```
 
-[^1]: 优选第二种方式，原因可能影响ospf  id号
+> 优选第二种方式，原因可能影响ospf  id号。
 
 
 
-## 启、闭
+### 启、闭
 
 ***启、闭U/D口物理状态***
 
@@ -217,7 +217,7 @@ GPN7600(config-msap)#ioctl eth disable 1/1        ## msap节点下，关闭。�
 端口下port laser off/on                             ## shutdown仅关闭端口，未关闭激光器
 ```
 
-## 主登录备
+### 主登录备
 
 ***设备底层，主用主控登陆备用主控方法***
 
@@ -231,7 +231,7 @@ slot2> enable
 slot2(config)#
 ```
 
-## ***团体字   `查询` `更改`***
+### ***团体字   `查询` `更改`***
 
 ```
 GPN7600(config)# show snmp community-string        //## 查询团体字
@@ -242,9 +242,9 @@ config snmp community readonly gwtt@123       //这个是读团体    //##修改
 config snmp community readwrite gwtt@123      //这个是写团体
 ```
 
-[^2]: **修改snmp需对应修改‘网管’和‘底层’两处，否则上载不生效**
+> **修改snmp需对应修改‘网管’和‘底层’两处，否则上载不生效**
 
-## V2升级脚本
+### V2升级脚本
 
 ```
 GPN7600升级步骤
@@ -322,3 +322,81 @@ GPN7600(DEBUG_H)>show fpga				//检查FPGA版本
 
 电路平面升级，没有特别注意事项，基本操作升级即可！
 ```
+
+### boot升级
+
+1. GPN7600(config)# reboot              ##重启
+2. ctrl＋c                          ## 进入boot>界面
+
+```
+showip          ## 显示ip地址 
+showmac         ## 显示MAC地址 
+setip           ## 设置ip
+**********************************
+注：U口和D口此时是无效的，也无法使用*
+********************************** 	
+```
+
+```
+setdownflag 3   ## 设备下载APP文件的类型 
+download "tiger",192.168.33.100,"11","22","GPN7600_V02R19C17B013.bin"      ## 必须为tiger，其他文件名不行 
+download "tiger",192.168.33.100,"11","22","GPN7600_SW_A_PTN_oam_v0323_20190411.fpga"
+```
+
+> [!note]
+>
+> IP地址为自己电脑的IP地址，123 和123 是用户名密码,
+>
+> V1R13B240SP15.bin 则是自己需要下载的相应文件名称 。
+
+```
+GPN7600(config)#download ftp boot 192.168.30.7 test 111111 bootrom405-3.0.2.bin all   ## 实际未同步到SW 
+GPN7600(config)#sync-file bootrom all             ## 手动同步boot文件到备用NMS板卡和SW板卡
+```
+
+> [!note]
+>
+> 注意：目前软件版本同步到SW的boot文件实际未同步，需要手动将该boot文件重新同步到sw板卡。下载boot文件到NMS板卡，系统不会自动将boot文件同步到备用NMS及SW板卡，需要使用命令完成同步。
+
+### V3升级脚本
+
+- ##### app
+
+```
+download ftp app 10.10.10.172 111 111 GPN7600_V03R21C01B073SP01.bin gpn
+```
+
+- ##### NMS
+
+```
+download ftp fpga 10.10.10.172 111 111 GPN7600-NMS-V1_FPGA_v1.1.15.fpga master
+```
+
+- ##### Other
+
+```
+download ftp fpga 10.10.10.172 111 111 fpga_code_1058_SP16.bin other
+```
+
+- ##### UXC
+
+```
+download ftp file /yaffs/sys/uxc_a.fpga 10.10.10.172 111 111 UXC-20220403.fpga 
+download ftp file /yaffs/sys/7610.fpga 10.10.10.172 111 111 OTN_CM_7610-20220323.fpga 
+download ftp file /yaffs/sys/7616.fpga 10.10.10.172 111 111 OTN_CM_7616-20211217.fpga 
+download ftp file /yaffs/sys/7616c.fpga 10.10.10.172 111 111 OTN_CM_7616C_20211201.fpga
+```
+
+- ##### sysfile
+
+```
+download ftp sysfile 10.10.10.172 111 111 sysfile_gwd_V02R02B044_GPN7600_V3R1_7U.bin
+```
+
+### MySQL数据库
+
+[![Static Badge](https://img.shields.io/badge/MySQL%E6%95%B0%E6%8D%AE%E5%BA%93-html%E6%9F%A5%E7%9C%8B-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/MySQL%E6%95%B0%E6%8D%AE%E5%BA%93.html)
+
+### Win 开启FTP
+
+[![Static Badge](https://img.shields.io/badge/Win%20%E5%BC%80%E5%90%AFFTP-html%E6%9F%A5%E7%9C%8B-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/Win%E5%BC%80%E5%90%AFFTP.html)

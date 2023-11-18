@@ -39,11 +39,13 @@
                                                                   "flexible-alerts",
                                                                   "advanced-emoji",
                                                                   "-copy-code-button",
-                                                                  "pageview-count",
+                                                                  "-pageview-count",
                                                                   "tbfed-pagefooter",
                                                                   "-page-toc-button",
                                                                   "-ancre-navigation",
-                                                                  "sectionx"
+                                                                  "sectionx",
+                                                                  "click-reveal"
+                                                                  
 
                                                                   
                                                                   
@@ -103,7 +105,7 @@
                                                                                                                   ]
                                                                                               },
                                                                                     "chart":  {
-                                                                                                                "type": "c3"
+                                                                                                                "type": "highcharts"
                                                                                                     } ,
                                                                          "flexible-alerts": {"style": "callout",
                                                                                                         "answer": {

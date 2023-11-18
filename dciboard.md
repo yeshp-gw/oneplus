@@ -1,4 +1,4 @@
-[PDSD](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PDSD-T2B2png.png) •[PQSQ](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PQSQ-T4B4.png) •[PUSD](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PUSD-M10Q2B2-1.png)• [OLP](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OLP.png) •[GEJD](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/GEJD-PQNG.png) •[OTDR](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OTDR.png) •[OCM](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OCM.png) •[PTM](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PTM-W.png) •[OTP5600正面](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/otp5600%E6%AD%A3%E9%9D%A21.png) •[OTP5600反面](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OTP5600%E6%AD%A3%E9%9D%A2%E5%9B%BE1.png)
+[![Static Badge](https://img.shields.io/badge/PDSD-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PDSD-T2B2png.png) ▸[![Static Badge](https://img.shields.io/badge/PQSQ-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PQSQ-T4B4.png) ▸[![Static Badge](https://img.shields.io/badge/PUSD-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PUSD-M10Q2B2-1.png)▸[![Static Badge](https://img.shields.io/badge/OLP-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OLP.png)▸[![Static Badge](https://img.shields.io/badge/GEJD-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/GEJD-PQNG.png)▸[![Static Badge](https://img.shields.io/badge/OTDR-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OTDR.png)▸[![Static Badge](https://img.shields.io/badge/OCM-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OCM.png)▸[![Static Badge](https://img.shields.io/badge/PTM-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PTM-W.png)▸[![Static Badge](https://img.shields.io/badge/OTP5600正面-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/otp5600%E6%AD%A3%E9%9D%A21.png)▸[![Static Badge](https://img.shields.io/badge/OTP5600背面-black)](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OTP5600%E6%AD%A3%E9%9D%A2%E5%9B%BE1.png)
 
 ## 公共板卡
 
@@ -18,12 +18,6 @@
 | --------------------- | ------------------------------------------------------------ |
 | **OTP5600-GEJD-RRFF** | `双向EDFA模块`，`东向增益22-35dB`，`西向增益22-35dB`，`2个FE OSC模块` |
 | **OTP5600-GEJD-QRGF** | `双向EDFA模块`，`东向增益15-25dB`，`西向增益22-35dB`，`1个GE OSC模块`、`1个FE OSC模块` |
-
-## AWG
-
-<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/AWGG.jpg" style="zoom:150%;" />
-
-![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202311021612811.png)
 
 ## 业务板卡
 
@@ -74,11 +68,13 @@
 
 ## 功能板卡
 
-概念图
+- 概念图
+
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/GNSwFRWudlskE3y.png" alt="image.png" style="zoom:53%;" /> OP<font color="white">-------</font> <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/So6OKZHdQT2iFuc.png" alt="image.png" style="zoom: 60%;" /> GPTM<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/oqkMEtraAKyxzVi.png" alt="image.png" style="zoom: 60%;" />  OCM<font color="white">-----</font>  <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/So6OKZHdQT2iFuc.png" alt="image.png" style="zoom: 60%;" />OTDR
 
-实物图
+- 实物图
+
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OLP.png" style="zoom:60%;" /> OP<font color="white">------</font><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PTM-W.png" style="zoom:69%;" />时钟
 
@@ -86,6 +82,6 @@
 
 ## 其他相关仪表器件
 
-光谱仪![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202310131338623.jpg) <font color="white">------</font>58表![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202310131338544.jpg)      
+光谱仪![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202310131338623.jpg) <font color="white">---</font>58表![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202310131338544.jpg)      
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202311101434604.png"/>
