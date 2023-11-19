@@ -400,3 +400,5 @@ download ftp sysfile 10.10.10.172 111 111 sysfile_gwd_V02R02B044_GPN7600_V3R1_7U
 ### Win 开启FTP
 
 [![Static Badge](https://img.shields.io/badge/Win%20%E5%BC%80%E5%90%AFFTP-html%E6%9F%A5%E7%9C%8B-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/Win%E5%BC%80%E5%90%AFFTP.html)
+
+<img src="https://version-1301999062.cos.ap-beijing.myqcloud.com/ftp.png"/>

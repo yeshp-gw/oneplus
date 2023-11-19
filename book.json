@@ -44,7 +44,10 @@
                                                                   "-page-toc-button",
                                                                   "-ancre-navigation",
                                                                   "sectionx",
-                                                                  "click-reveal"
+                                                                  "click-reveal",
+                                                                  "book-summary-scroll-position-saver",
+                                                                  "mcqx",
+                                                                  "accordion"
                                                                   
 
                                                                   
