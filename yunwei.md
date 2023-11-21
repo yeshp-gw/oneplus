@@ -8,19 +8,18 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
 ### 光器件衰耗
 
-&emsp;**AWG**: ![Static Badge](https://img.shields.io/badge/TX-%3C%3D6dB-blue),![Static Badge](https://img.shields.io/badge/RX-%3C%3D6dB-blue)
+| **AWG** |         TX≤6dB         |          RX64dB          |
+| :-----: | :--------------------: | :----------------------: |
+| **OLP** | **TX≤4dB**(分光器衰减) | **RX≤1.5dB**(光开关衰减) |
 
-&emsp;**OLP**:  ![Static Badge](https://img.shields.io/badge/TX-%3C%3D4dB-blue),![Static Badge](https://img.shields.io/badge/RX-%3C%3D1.5dB-blue)(<font face="仿宋">TX损耗指分光器衰减，RX损耗是光开关衰减)</font>
 
-&emsp;**OA**: ![Static Badge](https://img.shields.io/badge/%E2%80%9CP%E2%80%9D-%E5%A2%9E%E7%9B%8A_8~18dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CQ%E2%80%9D-%E5%A2%9E%E7%9B%8A_15~25dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CR%E2%80%9D-%E5%A2%9E%E7%9B%8A_22~35dB-blue)
 
 ### 单波最佳入纤光功率<font face="仿宋" size=2>(工程经验值)</font>
 
-&emsp;![Static Badge](https://img.shields.io/badge/400G-16QAM-green)：`3dBm`
-
-&emsp;![Static Badge](https://img.shields.io/badge/200G-16QAM-green)：`1dBm`
-
-&emsp;![Static Badge](https://img.shields.io/badge/200G-QPSK-green)：`2.5dBm`
+|   400G-16QAM   |    3dBm    |
+| :------------: | :--------: |
+| **200G-16QAM** |  **1dBm**  |
+| **200G-QPSK**  | **2.5dBm** |
 
 ### 调测<font face="仿宋" size=2>（仅记录多波光功率调测）</font>
 
