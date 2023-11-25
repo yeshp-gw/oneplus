@@ -27,16 +27,16 @@
                                                                   "github",
                                                                   "flexible-alerts",
                                                                   "auto-scroll-table",
-                                                                  "flexible-alerts",
-                                                                  "exercises",
-                                                                  "quizzes",
+                                                                  
+                                                                  "-exercises",
+                                                                  "-quizzes",
                                                                   "prism-themes",
                                                                   "-highlight",
                                                                   "charts",
                                                                   "youtube",
                                                                   "katex",
                                                                   "expandable-chapters",
-                                                                  "flexible-alerts",
+                                                                  
                                                                   "advanced-emoji",
                                                                   "-copy-code-button",
                                                                   "-pageview-count",
@@ -45,7 +45,7 @@
                                                                   "-ancre-navigation",
                                                                   "sectionx",
                                                                   "click-reveal",
-                                                                  "book-summary-scroll-position-saver",
+                                                                
                                                                   "mcqx",
                                                                   "accordion"
                                                                   

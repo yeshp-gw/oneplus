@@ -85,10 +85,17 @@ root  /var/www/html/gitbook；   ## html后面添加gitbook
 ```
 systemctl status nginx.service     ## 运行状态
 nginx -v       ##版本号
+```
+
+```
 systemctl start nginx     ##启动
 systemctl stop nginx      ##停止
 systemctl reload nginx    ##重载
+```
+
+```
 netstat -tnlp          ##端口号占用
 ps –ef | grep nginx    ## 查看进程
 kill -9 pid            ##杀死进程
 ```
+

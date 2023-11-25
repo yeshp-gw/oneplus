@@ -6,38 +6,35 @@
 
 ### 格林DCI设备
 
-- [Greenway DCI ]()
-  - [OTP5600-II-V2](otp5500.md)
-  - [OTP5600-II](otp5600.md)
-  - [AWG](awg.md)
-  - [Moudle](module.md)
-  - [Board](dciboard.md)
-  - [Mgt](guanli.md)
+- [OTP5600-II-V2](otp5500.md)
+- [OTP5600-II](otp5600.md)
+- [AWG](awg.md)
+- [MOUDLE](module.md)
+- [BOARD](dciboard.md)
+- [MGT](guanli.md)
 
 - [♞运维](yunwei.md)
 
 ### 格林OTN设备
 
-- [Greenway OTN ]()
-  - [GPN7600](gpn7600.md)
-  - [Board](board.md)
-  - [Mgt](da.md)
-  - [Bussiness](yewu.md)
-  - [Cross-network hosting](kuadawang.md)
-  - [Exam](Q&A.md)
+- [GPN7600](gpn7600.md)
+- [BOARD](board.md)
+- [MGT](da.md)
+- [BUSSINESS](yewu.md)
+- [跨大网代管远端](kuadawang.md)
+- [Exam](Q&A.md)
 
 - [♜排故](paigu.md)
 
 ### 出差记录
 
-- [Summaries](zj.md)
-- [差旅统计](summaries.md)
+- [出差地市的一些总结](zj.md)
+- [差旅统计](sbiao.md)
 
 ### 编辑发布
 
 - [Markdown](markdown.md)
 - [git](git.md)
-- [郑州联通管控测试](guankong.md)
 
 
 

@@ -51,7 +51,7 @@ https://youtu.be/KKTGzT-28_w?si=sdSUYroRN1pOovR3 ##内培视频##
 
 ------
 
-### EOO（分组）业务
+### EOO（透传）业务
 
 **单向业务流：**
 

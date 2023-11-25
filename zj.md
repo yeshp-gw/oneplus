@@ -2,9 +2,12 @@
 
 [直达广州](#guangzhou)
 
+[直达郑州](#zz)
+
 ### 三门峡
 
-[三门峡，这是地方冬天可以观赏美丽的天鹅，本次出差无缘。](https://baike.baidu.com/item/%E4%B8%89%E9%97%A8%E5%B3%A1%E5%B8%82%E5%A4%A9%E9%B9%85%E6%B9%96%E5%9F%8E%E5%B8%82%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD/9988908)
+[三门峡，这是地方冬天可以观赏美丽的天鹅，本次出差无缘。](https://baike.baidu.com/item/三门峡市天鹅湖城市湿地公园/9988908)
+
 
 格林波分设备三门峡放置于`新大楼（5楼）`和`六峰路局（3楼）`，业务类型`point to point`，现场配置为两光一电，4块PDSD，组网如下：
 
@@ -56,14 +59,17 @@
 
 接触波分设备测试的头一回，坐标庆阳电信，负责人李小娟，简单的点对点10GE业务测试，测试项目主要是传输设备的稳定性和设备性能，顺带测了op倒换和损耗。
 
-<center><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%BA%86%E9%98%B3.jpg" style="zoom:39%;" /></center>
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%BA%86%E9%98%B3.jpg" style="zoom: 35%;" />
+
 
 <div align='center' ><font size=3>现场图</font></div>
 
-<video id="my-video" class="video-js" controls preload="auto" width="28%"
+<center><video id="my-video" class="video-js" controls preload="auto" width="28%"
 poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d269f43e3270835012416384556/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
-  <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d269f43e3270835012416384556/OhbhjiFevoIA.mp4" type='video/mp4' >
-    </video>https://youtube.com/shorts/_nw_C2xk4dk
+    <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d269f43e3270835012416384556/OhbhjiFevoIA.mp4" type='video/mp4' >
+    </video></center>
+    ##https://youtube.com/shorts/_nw_C2xk4dk##
+
 
 总结：  就学会了一个上网管(B039版本网管方式变了) 、倒换阈值的设置、延迟时间设置、打环命令、计算光路提升了下，学会了写路由等。其他再补充。
 
@@ -149,3 +155,87 @@ ASE：设置一个值（可用OA代替，需要设置`set los_status N`  出光-
 测试对版本相对关注，所以，有些情况下，需要干一些见不得人的“脏事”。比如，从测试开始到测试结束，私底下换了三个版本。这对测试官来说，绝对不允许，但是在我这确实这么干了！西吧
 
 总之，事的背后是人，人稳当当的，这事八九成就成了，没啥问题的。
+
+### <span id="zz"></span>郑州
+
+- ##### U设备上线
+
+<img src="https://version-1301999062.cos.ap-beijing.myqcloud.com/202311170925504.png" style="zoom:50%;" />
+
+需求：修改用户名、密码
+
+```
+user login-password admin
+##输入新密码
+user enable-password admin
+##输入新密码
+```
+
+- ##### A设备上线
+
+需求：8GE挂远端上线配置、远端基本配置、用户名密码修改
+
+```
+netconf_datastore cucc           
+netconf_yang version set 3
+netconf enable
+env set NETCONF=CUCC
+                               ##GPN7600上线远端需要做的配置，切记关闭DHCP功能。##
+dhcpr enable
+dhcpr serverip add x.x.x.x          ##DHCP服务器ip地址
+dhcpr gcc relay enable
+dhcpr add relayif vlanAuto4000
+ 
+vlan 4000                            ##如果下挂A6，需要配置以下内容
+add port 1/1 tag                     ## 挂远端的口加入到vlan
+ip address unnumberd loopback 10
+exit
+
+interf ethe 1/1                      ##挂远端的口
+managevlan 4000
+exit
+```
+
+```
+grosadvdebug
+download ftp sdn 10.10.10.130 admin admin otncucc0726V2.bin          ##A6设备配置
+exit
+
+lldp txmode netconf
+vlanmode dot
+vlan 4000
+add port 1/9 tag
+ip address unnumberd loopback 10
+exit
+dhcpc vlan 4000 4000
+dhcpc enable
+ofagent enable
+```
+
+```
+管控配置DHCP relay地址，为该U设备的环回地址，地址池28位掩码共计16个可用IP
+例如：U设备 loopback10 地址为3.57.3.129，掩码28位
+     则： DHCP relay地址为3.57.3.129，地址池地址为3.57.3.130-3.57.3.143
+```
+
+- 透传业务
+  - NE1
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/NE1.gif"/>
+
+- NE2
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/NE2.gif"/>
+
+- ##### EOO
+
+  - NE1
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/NE1.gif"/>
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/8ge.gif"/>
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/8ge.gif"/>
+
+
+
