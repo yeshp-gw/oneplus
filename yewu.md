@@ -6,10 +6,7 @@
 poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d65f2c833270835012528774149/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
   <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d65f2c833270835012528774149/WOyViHIXEnsA.mp4" type='video/mp4' >
     </video>
-
-https://www.youtube.com/watch?v=SUxayu7auak&ab_channel=GWTT 
-
-##内配视频##
+<p hidden >https://www.youtube.com/watch?v=SUxayu7auak&ab_channel=GWTT##内配视频##</p>
 
 
 ------
@@ -46,8 +43,7 @@ VC4业务不需要使能，VC3、VC12业务需要使能低阶时隙。
 poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/1741726f3270835012529211421/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
   <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/1741726f3270835012529211421/nayS2DhU1B0A.mp4" type='video/mp4' >
     </video>
-
-https://youtu.be/KKTGzT-28_w?si=sdSUYroRN1pOovR3 ##内培视频## 
+<p hidden >https://youtu.be/KKTGzT-28_w?si=sdSUYroRN1pOovR3 ##内培视频##</p>
 
 ------
 
@@ -87,10 +83,7 @@ https://youtu.be/KKTGzT-28_w?si=sdSUYroRN1pOovR3 ##内培视频##
 poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/518b81153270835012530382345/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
   <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/518b81153270835012530382345/yTsLAV4KJcUA.mp4" type='video/mp4' >
     </video>
-
-https://www.youtube.com/watch?v=PvtqdJq1YVc&ab_channel=GWTT
-
-  ##内培视频##
+<p hidden >https://www.youtube.com/watch?v=PvtqdJq1YVc&ab_channel=GWTT</p>
 
 ------
 
@@ -206,9 +199,7 @@ https://www.youtube.com/watch?v=PvtqdJq1YVc&ab_channel=GWTT
 poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d6066ce13270835012528727680/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
   <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d6066ce13270835012528727680/NYkMNLq7nA4A.mp4" type='video/mp4' >
     </video>
-
-
-https://www.youtube.com/watch?v=8hAvxhcTDMg&ab_channel=GWTT##内陪视频##
+<p hidden>https://www.youtube.com/watch?v=8hAvxhcTDMg&ab_channel=GWTT##内陪视频##</p>
 
 ### 绕接
 

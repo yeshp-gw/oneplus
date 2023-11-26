@@ -2,9 +2,7 @@
 
 2023出差时间汇总
 
-<script src="https://cdn.staticfile.org/Chart.js/3.9.1/chart.js"></script>
-
-<script src="https://cdn.bootcdn.net/ajax/libs/Chart.js/4.4.0/chart.js"></script>
+<script  src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 
 <canvas id="myChart" width="400" height="200"></canvas>
 <script>

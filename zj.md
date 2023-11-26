@@ -64,11 +64,12 @@
 
 <div align='center' ><font size=3>现场图</font></div>
 
-<center><video id="my-video" class="video-js" controls preload="auto" width="28%"
+<center><video id="my-video" class="video-js" controls preload="auto" width="35%"
 poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d269f43e3270835012416384556/coverBySnapshot_10_0.jpg" data-setup='{"aspectRatio":"16:9"}'>
     <source src="http://1301999062.vod-qcloud.com/e63f05eavodcq1301999062/d269f43e3270835012416384556/OhbhjiFevoIA.mp4" type='video/mp4' >
     </video></center>
-    ##https://youtube.com/shorts/_nw_C2xk4dk##
+
+<p hidden>https://youtube.com/shorts/_nw_C2xk4dk## </p>
 
 
 总结：  就学会了一个上网管(B039版本网管方式变了) 、倒换阈值的设置、延迟时间设置、打环命令、计算光路提升了下，学会了写路由等。其他再补充。
@@ -77,39 +78,39 @@ poster="http://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/d269f43e32
 
 <div align="center"> <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202311011447386.jpg" style="zoom: 10%;" /> </div>
 
-试点系统图
+##### 试点系统图
 
 ![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%B9%BF%E5%B7%9E.png)
 
-试点连纤图
+##### 试点连纤图
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%B9%BF%E5%B7%9E%E8%AF%95%E7%82%B9.png" style="zoom:80%;" />
 
-现场图
+##### 现场图
 
 <div align="center"> <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202311021005797.png" style="zoom: 85%;" /> </div>
 
-仪器
+##### 仪器
 
 | <font color="red">光功率计</font> | <font color="red">58仪表100G</font> | <font color="red">光谱分析仪</font> |  <font color="red">光衰减器</font>  |
 | :-------------------------------: | :---------------------------------: | :---------------------------------: | :---------------------------------: |
 |           **尾纤20根**            |           **光衰3dBmx2**            |     ~~**理线架、标签32个**、~~      | <font color="red">**分光器**</font> |
 
-发货清单
+##### 发货清单
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95.png" style="zoom:95%;" />
 
-模块发光指标
+##### 模块发光指标
 
 ![](https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%8F%91%E5%85%89%E6%8C%87%E6%A0%87.png)
 
 &emsp;<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202310131352466.png" style="zoom: 56%;" />
 
-调波波
+##### 调波波
 
 0dBm---->-6dBm---->7dBm---->4dBm(入纤光功率)-------------6dBm（OLP）----->3dBm(出纤光功率)----->-3dBm
 
-测试项目
+##### 测试项目
 
 - 背靠背OSNR容限
 
@@ -162,7 +163,7 @@ ASE：设置一个值（可用OA代替，需要设置`set los_status N`  出光-
 
 <img src="https://version-1301999062.cos.ap-beijing.myqcloud.com/202311170925504.png" style="zoom:50%;" />
 
-需求：修改用户名、密码
+&emsp;需求：修改用户名、密码
 
 ```
 user login-password admin
@@ -173,7 +174,7 @@ user enable-password admin
 
 - ##### A设备上线
 
-需求：8GE挂远端上线配置、远端基本配置、用户名密码修改
+  需求：8GE挂远端上线配置、远端基本配置、用户名密码修改
 
 ```
 netconf_datastore cucc           
