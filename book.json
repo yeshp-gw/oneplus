@@ -30,12 +30,12 @@
                                                                   
                                                                   "-exercises",
                                                                   "-quizzes",
-                                                                  "prism-themes",
+                                                                  "-prism-themes",
                                                                   "-highlight",
-                                                                  "charts",
+                                                                  "chart",
                                                                   "youtube",
                                                                   "katex",
-                                                                  "expandable-chapters",
+                                                                  "-expandable-chapters",
                                                                   
                                                                   "advanced-emoji",
                                                                   "-copy-code-button",
@@ -106,10 +106,7 @@
                                                                                                                     "mermaid",
                                                                                                                        "eval-js"
                                                                                                                   ]
-                                                                                              },
-                                                                                    "chart":  {
-                                                                                                                "type": "highcharts"
-                                                                                                    } ,
+                                                                                              },                             
                                                                          "flexible-alerts": {"style": "callout",
                                                                                                         "answer": {
                                                                                                                      "label":  "回复:"

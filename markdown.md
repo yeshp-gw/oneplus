@@ -174,3 +174,14 @@ poster="https://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/5262199b3
     </video>
 ```
 
+**选择题**
+
+```python
+{%mcq ans="o4"%}
+{%title%} 卧薪尝胆说的哪位历史人物?
+{%o1%} 夫差
+{%o2%} 范蠡
+{%o3%} 管仲
+{%o4%} 勾践
+{%endmcq%}
+```

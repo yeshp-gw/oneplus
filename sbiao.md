@@ -4,6 +4,8 @@
 
 <script  src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 
+
+
 <canvas id="myChart" width="400" height="200"></canvas>
 <script>
 const ctx = document.getElementById('myChart');
@@ -52,9 +54,40 @@ const myChart = new Chart(ctx, config);
 </script>
 
 
+------
 
 
 
+{% chart %}
+
+{
+    "data": {
+        "type": "line",
+        "columns": [
+            ["2023-城市",1,2 , 3, 4, 5, 6,7,8,9,10,11,12],
+            ["2023-天数", 0,0,5,15,4,30,25,0,11,11,10,0]
+        ],
+        "axes": {
+            "data2": "y2"
+        }
+    },
+    "axis": {
+        "y2": {
+            "show": true
+        }
+    }
+}
+
+{% endchart %}
 
 
+
+   '庆阳',
+    '鹤壁',
+    '三门峡',
+	'开封',
+	 '山西-晋中',
+	 '广州',
+	 '周口',
+	  '洛阳',
 

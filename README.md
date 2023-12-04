@@ -8,6 +8,12 @@
 
 [![Static Badge](https://img.shields.io/badge/SDN-230614.bin-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/dci-sdn230614.bin)
 
+[![Static Badge](https://img.shields.io/badge/FPGA-NMU_V2.24-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_NMU_V2.24.fpga)
+
+[![Static Badge](https://img.shields.io/badge/sysfile-GWD_V04R20B016_OTP5600_OLS20.bin-red)](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B016_OTP5600_OLS20.bin)
+
+[![Static Badge](https://img.shields.io/badge/sysfile-GWD_V04R20B017_OTP5600_OTE20.bin-red)](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B017_OTP5600_OTE20.bin) 
+
 <!--endsec-->
 
 # OTN专区
