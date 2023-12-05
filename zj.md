@@ -59,7 +59,7 @@
 
 接触波分设备测试的头一回，坐标庆阳电信，负责人李小娟，简单的点对点10GE业务测试，测试项目主要是传输设备的稳定性和设备性能，顺带测了op倒换和损耗。
 
-<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%BA%86%E9%98%B3.jpg" style="zoom: 35%;" />
+<center><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%BA%86%E9%98%B3.jpg" style="zoom: 35%;" /> </center>
 
 
 <div align='center' ><font size=3>现场图</font></div>
@@ -238,5 +238,5 @@ ofagent enable
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/8ge.gif"/>
 
-
+[管控测试文档|点击下载](https://version-1301999062.cos.ap-beijing.myqcloud.com/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9AOTN-CPE%E8%AE%BE%E5%A4%87%E7%AE%A1%E6%8E%A7%E6%8E%A5%E5%8F%A3_%E7%8E%B0%E7%BD%91%E8%AF%95%E7%82%B9%E6%B5%8B%E8%AF%95%E6%96%B9%E6%A1%88_GW.pdf)
 
