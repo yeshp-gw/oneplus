@@ -194,7 +194,7 @@ exit
 
 interf ethe 1/1                      ##挂远端的口
 managevlan 4000
-exit
+exit                             注意：U设备禁止开启DHCPC，否则会篡改对端U设备IP
 ```
 
 ```
@@ -209,7 +209,7 @@ add port 1/9 tag
 ip address unnumberd loopback 10
 exit
 dhcpc vlan 4000 4000
-dhcpc enable
+dhcpc enable                         
 ofagent enable
 ```
 

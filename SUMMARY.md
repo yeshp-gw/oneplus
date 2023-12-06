@@ -24,6 +24,8 @@
 - [跨大网代管远端](kuadawang.md)
 - [Exam](Q&A.md)
 
+- [管控相关](gk.md)
+
 - [♜排故](paigu.md)
 
 ### 出差记录
