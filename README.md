@@ -2,17 +2,17 @@
 
 <!--sec data-title="点击下载" data-id="section0" data-show=true ces-->
 
-#### [![Static Badge](https://img.shields.io/badge/APP-OTP5600_V04R20C09B039SP03.bin-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_V04R20C09B039SP03.bin)
+[OTP5600_V04R20C10B015.bin](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_V04R20C10B015.bin)
 
-#### [![Static Badge](https://img.shields.io/badge/APP-OTP5600_II_V2_V04R20C09B039SP03.bin-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_II_V2_V04R20C09B039SP03.bin) 
+[OTP5600_II_V2_V04R20C10B015.bin](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_II_V2_V04R20C10B015.bin) 
 
-[![Static Badge](https://img.shields.io/badge/SDN-230614.bin-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/dci-sdn230614.bin)
+[SDN](https://version-1301999062.cos.ap-beijing.myqcloud.com/dci-sdn230823.bin)
 
-[![Static Badge](https://img.shields.io/badge/FPGA-NMU_V2.24-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_NMU_V2.24.fpga)
+[FPGA_55](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5500_V2_NMU_v1.1.fpga)，&nbsp;[FPGA_56](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_NMU_V2.24.fpga)
 
-[![Static Badge](https://img.shields.io/badge/sysfile-GWD_V04R20B016_OTP5600_OLS20.bin-red)](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B016_OTP5600_OLS20.bin)
+[sysfile_OLS20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B016_OTP5600_OLS20.bin)  
 
-[![Static Badge](https://img.shields.io/badge/sysfile-GWD_V04R20B017_OTP5600_OTE20.bin-red)](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B017_OTP5600_OTE20.bin) 
+[sysfile_OTE20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B017_OTP5600_OTE20.bin)  <font color="white">----------------------------------------------------------------------</font>截止12.9号，测试部最新版本！
 
 <!--endsec-->
 
@@ -44,7 +44,7 @@
 
 <!--sec data-title="点击下载" data-id="section4" data-show=true ces-->
 
-#### [![Static Badge](https://img.shields.io/badge/%E7%94%BB%E5%9B%BE-%E8%BD%AF%E4%BB%B6-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/%E4%BA%BF%E5%9B%BE%E5%9B%BE%E7%A4%BA%E6%BF%80%E6%B4%BB.zip) <font color="white">-</font>[![Static Badge](https://img.shields.io/badge/GW-LOGO-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/LOGO.zip) <font color="white">-</font>[![Static Badge](https://img.shields.io/badge/%E6%8F%92%E4%BB%B6-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/igg_2.3.4.zip) <font color="white">-</font>[![Static Badge](https://img.shields.io/badge/sftp-freeSSHd-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/freeSSHd.exe) <font color="white">-</font>[![Static Badge](https://img.shields.io/badge/USB%E9%A9%B1%E5%8A%A8-%E7%A1%AC%E9%85%B7-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/Install_USB_Win10_10059_20_07272023_08042023.zip)<font color="white">-</font>[![Static Badge](https://img.shields.io/badge/58%E4%BB%AA%E8%A1%A8-10%2F100g-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/VNC-Viewer-5.3.0-Windows-64bit.exe)<font color="white">-</font>[![Static Badge](https://img.shields.io/badge/%E5%85%89%E8%B0%B1%E4%BB%AA-osa-blue)](https://version-1301999062.cos.ap-beijing.myqcloud.com/RemoteMonitor%20for%20AQ6370C%20%26%20AQ6150.lnk)
+[EdrawMax](https://version-1301999062.cos.ap-beijing.myqcloud.com/%E4%BA%BF%E5%9B%BE%E5%9B%BE%E7%A4%BA%E6%BF%80%E6%B4%BB.zip) |<font color="white">-</font>[GW logo](https://version-1301999062.cos.ap-beijing.myqcloud.com/LOGO.zip) |<font color="white">-</font>[XX插件](https://version-1301999062.cos.ap-beijing.myqcloud.com/igg_2.3.4.zip) |<font color="white">-</font>[FreeSSHd](https://version-1301999062.cos.ap-beijing.myqcloud.com/freeSSHd.exe) |<font color="white">-</font>[IKOOl CORE驱动](https://version-1301999062.cos.ap-beijing.myqcloud.com/Install_USB_Win10_10059_20_07272023_08042023.zip)<font color="white">-</font>| [VNC](https://version-1301999062.cos.ap-beijing.myqcloud.com/VNC-Viewer-5.3.0-Windows-64bit.exe)<font color="white">-</font>| [OSA](https://version-1301999062.cos.ap-beijing.myqcloud.com/RemoteMonitor%20for%20AQ6370C%20%26%20AQ6150.lnk) |<font color="white">-</font>[批量打印软件](https://version-1301999062.cos.ap-beijing.myqcloud.com/%E6%89%B9%E9%87%8F%E6%89%93%E5%8D%B0.7z)
 
 <!--endsec-->
 

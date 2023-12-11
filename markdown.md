@@ -185,3 +185,14 @@ poster="https://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/5262199b3
 {%o4%} 勾践
 {%endmcq%}
 ```
+
+<strong>according</strong>
+
+```
+%accordion% 模块标题 %accordion%
+- 内容部分第1行
+- 内容部分第2行
+- 内容部分第3行
+%/accordion%
+```
+

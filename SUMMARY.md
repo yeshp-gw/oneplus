@@ -8,11 +8,10 @@
 
 - [OTP5600-II-V2](otp5500.md)
 - [OTP5600-II](otp5600.md)
+- [BOARD](dciboard.md)
 - [AWG](awg.md)
 - [MOUDLE](module.md)
-- [BOARD](dciboard.md)
 - [MGT](guanli.md)
-
 - [♞运维](yunwei.md)
 
 ### 格林OTN设备
@@ -22,10 +21,8 @@
 - [MGT](da.md)
 - [BUSSINESS](yewu.md)
 - [跨大网代管远端](kuadawang.md)
-- [Exam](Q&A.md)
-
 - [管控相关](gk.md)
-
+- [Exam](Q&A.md)
 - [♜排故](paigu.md)
 
 ### 出差记录
@@ -37,6 +34,7 @@
 
 - [Markdown](markdown.md)
 - [git](git.md)
+- [xshell](xshell.md)
 
 
 

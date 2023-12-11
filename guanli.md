@@ -27,13 +27,13 @@ OTP5600-II(config)#upload ftp file /mnt/flash/gwd/sdn/wholePack.bin 132.234.25.2
 上载FPGA文件，~~下载略~~
 
 ```
-upload ftp file /mnt/flash/gwd/otp5600.fpga 132.234.25.22 123 123 otp5600.fpga
+ upload ftp file /mnt/flash/gwd/otp5600.fpga 132.234.25.22 123 123 otp5600.fpga
 ```
 
 上载FLASH文件，<u>下载不支持</u>
 
 ```
-upload ftp flash 132.234.25.22 123 123 flash.bin gpn
+ upload ftp flash 132.234.25.22 123 123 flash.bin gpn
 ```
 
 ### 网元开通配置
@@ -102,19 +102,19 @@ set frequency 191.4
 
 ### 升级
 
-- 网关网元
+- <strong>网关网元</strong>
 
-  目前网管方式需要先串口登录设备，释放9/1-2口到默认VLAN1，然后telnet方式升级。
+目前网管方式需要先串口登录设备，释放9/1-2口到默认VLAN1，然后telnet方式升级。
 
-- 非网关网元
+- <strong>非网关网元</strong>
 
-  B039以上版本已经支持远程升级，telnet到非网关网元直接download下载文件即可。
+B039以上版本已经支持远程升级，telnet到非网关网元直接download下载文件即可。
 
 ### OSPF路由不通排查
 
 OTP5600-GEJD板卡（光放板卡）和OTP5600-WRDY（WSS板卡）目前硬件带OSC模块，根据型号不同，分别带不同数量的千兆OSC模块和百兆OSC模块，具体信息参考市场发布的产品配置表。
 
-- 排查OSC模块是否工作正常
+- <strong>排查OSC模块是否工作正常</strong>
 
 
 ```
@@ -124,27 +124,27 @@ show sfp
 
 <font face="仿宋">说明：OSC模块发光`2dBm`，收光`-30dBm`左右</font>
 
-- 查看OSC模块互通协商是否UP
+- <strong>查看OSC模块互通协商是否UP</strong>
 
 
 ```
-show port-link
+   show port-link
 ```
 
 <font face="仿宋">说明:OSC模块一般是两个互通使用，目前千兆对千兆，百兆对通百兆，默认起来是强制协商；两个OSC模块正常都能协商起来，如果没协商起来，<u>auto enable</u>开启自动协商。</font> 
 
-- 查看OSPF配置信息是否正确
+- <strong>查看OSPF配置信息是否正确</strong>
 
 
 ```
-show running-config ospf 
+   show running-config ospf 
 ```
 
-- 查看OSPF邻居信息是否正确
+- <strong>查看OSPF邻居信息是否正确</strong>
 
 
 ```
-show ip ospf neighbor
+   show ip ospf neighbor
 ```
 
 ### FreeSSHd软件使用
