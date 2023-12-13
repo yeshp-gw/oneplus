@@ -1,10 +1,10 @@
-# DCI运维相关
+## DCI运维相关
 
 波分排故实质是光经过光学器件后的质量优劣性，所以排查涉及光收、损耗、色散等各种影响光的因素和参数。
 
-OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
+»OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 
-功率控制原理：光功足够强的前提下，不引起非线性效应。
+»功率控制原理：光功足够强的前提下，不引起非线性效应。
 
 
 ### 光器件衰耗
@@ -12,8 +12,6 @@ OTN光层影响因素：非线性（功率过高）、衰耗、OSNR信噪比。
 | **AWG** |         TX≤6dB         |          RX≤6dB          |
 | :-----: | :--------------------: | :----------------------: |
 | **OLP** | **TX≤4dB**(分光器衰减) | **RX≤1.5dB**(光开关衰减) |
-
-
 
 ### 单波最佳入纤光功率<font face="仿宋" size=2>(工程经验值)</font>
 
@@ -89,7 +87,7 @@ mode [10ge_lan|10ge_wan|stm64|otu2|100g|100g-nonfec|otu4]    ## 配置10ge业务
 loopback mode none/inner/outer           ## 配置客户侧环回
 ```
 
-- 进入备用主控命令
+➹进入备用主控命令
 
 ```
 grosadvdebug
@@ -115,11 +113,11 @@ enable
 
 
 
-# OTN运维相关
+## OTN运维相关
 
 ### 改制
 
-###### ***`EOPC126`改制为`EOSC126`**
+**`EOPC126`改制为`EOSC126`**
 
 ```
 GPN7600(config)#grosadvdebug
@@ -162,7 +160,7 @@ V3版本：
 
 ### 更改
 
-***更改`NEID`和系统`MAC`***
+**更改`NEID`和系统`MAC`**
 
 ```
 grosadvdebug 
@@ -172,7 +170,7 @@ grosadvdebug
 reboot重启生
 ```
 
-***更改设备`Loopback10`地址***
+**更改设备`Loopback10`地址**
 
 ```linux
 插入8at2设备会有一个Loopback10的环回地址，133网段
@@ -190,7 +188,7 @@ GPN7600(config)# dcn ip xxx.xxx.xxx.xxx/24        // 掩码按照规划 //
 
 ### 启、闭
 
-***启、闭U/D口物理状态***
+**启、闭U/D口物理状态**
 
 ```
 GPN7600(config)#int eth 17/<1-2>                
@@ -202,7 +200,7 @@ GPN7600(if-eth17/3)#shutdown
 GPN7600(if-eth17/3)#undo shutdown
 ```
 
-***启、闭8GE物理口状态***
+**启、闭8GE物理口状态**
 
 ```
 GPN7600(config)#int eth 1/1 
@@ -211,7 +209,7 @@ GPN7600(if-eth1/1)#shutdown                       ## 进入端口，shutdown
 GPN7600(config-msap)#ioctl eth disable 1/1        ## msap节点下，关闭。任选其一！
 ```
 
-***启、闭激光器状态***
+**启、闭激光器状态**
 
 ```linux
 端口下port laser off/on                             ## shutdown仅关闭端口，未关闭激光器
@@ -219,7 +217,7 @@ GPN7600(config-msap)#ioctl eth disable 1/1        ## msap节点下，关闭。�
 
 ### 主登录备
 
-***设备底层，主用主控登陆备用主控方法***
+**设备底层，主用主控登陆备用主控方法**
 
 ```
 config# grosadvdebug                           进入debug节点 
@@ -231,7 +229,7 @@ slot2> enable
 slot2(config)#
 ```
 
-### ***团体字   `查询` `更改`***
+### **团体字   `查询` `更改`**
 
 ```
 GPN7600(config)# show snmp community-string        //## 查询团体字
@@ -242,7 +240,7 @@ config snmp community readonly gwtt@123       //这个是读团体    //##修改
 config snmp community readwrite gwtt@123      //这个是写团体
 ```
 
-> **修改snmp需对应修改‘网管’和‘底层’两处，否则上载不生效**
+> 修改snmp需对应修改‘网管’和‘底层’两处，否则上载不生效。
 
 ### V2升级脚本
 
@@ -325,8 +323,9 @@ GPN7600(DEBUG_H)>show fpga				//检查FPGA版本
 
 ### boot升级
 
-1. GPN7600(config)# reboot              ##重启
-2. ctrl＋c                          ## 进入boot>界面
+▸GPN7600(config)# reboot              ##重启
+
+▸CTRL+C                       ## 进入boot>界面
 
 ```
 showip          ## 显示ip地址 
@@ -360,25 +359,25 @@ GPN7600(config)#sync-file bootrom all             ## 手动同步boot文件到�
 
 ### V3升级脚本
 
-- ##### app
+##### app
 
 ```
 download ftp app 10.10.10.172 111 111 GPN7600_V03R21C01B073SP01.bin gpn
 ```
 
-- ##### NMS
+##### NMS
 
 ```
 download ftp fpga 10.10.10.172 111 111 GPN7600-NMS-V1_FPGA_v1.1.15.fpga master
 ```
 
-- ##### Other
+##### Other
 
 ```
 download ftp fpga 10.10.10.172 111 111 fpga_code_1058_SP16.bin other
 ```
 
-- ##### UXC
+##### UXC
 
 ```
 download ftp file /yaffs/sys/uxc_a.fpga 10.10.10.172 111 111 UXC-20220403.fpga 
@@ -387,7 +386,7 @@ download ftp file /yaffs/sys/7616.fpga 10.10.10.172 111 111 OTN_CM_7616-20211217
 download ftp file /yaffs/sys/7616c.fpga 10.10.10.172 111 111 OTN_CM_7616C_20211201.fpga
 ```
 
-- ##### sysfile
+##### sysfile
 
 ```
 download ftp sysfile 10.10.10.172 111 111 sysfile_gwd_V02R02B044_GPN7600_V3R1_7U.bin

@@ -102,11 +102,11 @@ set frequency 191.4
 
 ### 升级
 
-- <strong>网关网元</strong>
+<strong>网关网元</strong>
 
 目前网管方式需要先串口登录设备，释放9/1-2口到默认VLAN1，然后telnet方式升级。
 
-- <strong>非网关网元</strong>
+<strong>非网关网元</strong>
 
 B039以上版本已经支持远程升级，telnet到非网关网元直接download下载文件即可。
 
@@ -114,7 +114,7 @@ B039以上版本已经支持远程升级，telnet到非网关网元直接downloa
 
 OTP5600-GEJD板卡（光放板卡）和OTP5600-WRDY（WSS板卡）目前硬件带OSC模块，根据型号不同，分别带不同数量的千兆OSC模块和百兆OSC模块，具体信息参考市场发布的产品配置表。
 
-- <strong>排查OSC模块是否工作正常</strong>
+<strong>排查OSC模块是否工作正常</strong>
 
 
 ```
@@ -122,25 +122,26 @@ interface wdm_osc <slot/1>
 show sfp
 ```
 
-<font face="仿宋">说明：OSC模块发光`2dBm`，收光`-30dBm`左右</font>
+> 说明：OSC模块发光`2dBm`，收光`-30dBm`左右
 
-- <strong>查看OSC模块互通协商是否UP</strong>
+<strong>查看OSC模块互通协商是否UP</strong>
 
 
 ```
    show port-link
 ```
 
-<font face="仿宋">说明:OSC模块一般是两个互通使用，目前千兆对千兆，百兆对通百兆，默认起来是强制协商；两个OSC模块正常都能协商起来，如果没协商起来，<u>auto enable</u>开启自动协商。</font> 
+> 说明:OSC模块一般是两个互通使用，目前千兆对千兆，百兆对通百兆，默认起来是强制协商；两个OSC模块正常都能协商起来，如果没协商起来，<u>auto enable</u>开启自动协商。
+>
 
-- <strong>查看OSPF配置信息是否正确</strong>
+<strong>查看OSPF配置信息是否正确</strong>
 
 
 ```
    show running-config ospf 
 ```
 
-- <strong>查看OSPF邻居信息是否正确</strong>
+<strong>查看OSPF邻居信息是否正确</strong>
 
 
 ```

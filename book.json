@@ -112,7 +112,7 @@
                                                                                                                      "label":  "回复:"
                                                                                                                  },
                                                                                                "warning": { 
-                                                                                                                    "label":  "警告"
+                                                                                                                    "label":  "调试开关"
                                                                                                                   },
                                                                                                 "danger": {
                                                                                                                     "label": "危险"

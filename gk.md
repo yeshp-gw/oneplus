@@ -1,4 +1,4 @@
-## UMS_设备上线、业务配置；业务迁移至UMS
+## UMS设备上线、业务配置；业务迁移至UMS;
 
 ### 设备上线
 
@@ -10,7 +10,7 @@
 
 #### <strong>OTN-CPE设备上线(联通为例)：</strong>
 
-##### 下载支持管控SDN文件
+♦&nbsp;&nbsp;下载支持管控SDN文件
 
 ```
 GPN7600(config)# download ftp sdn x.x.x.x  user  password  文件名.bin  # OTN设备
@@ -19,7 +19,7 @@ GPN710D(DEBUG_H)# download ftp sdn x.x.x.x  user  password  文件名.bin  # 远
 
 [<img alt="Static Badge" src="https://img.shields.io/badge/SDN-CUCC_20230227.bin-purple">](https://version-1301999062.cos.ap-beijing.myqcloud.com/otncucc20230227.bin) [<img alt="Static Badge" src="https://img.shields.io/badge/NMS_APP-GPN7600_179.bin-purple">](https://version-1301999062.cos.ap-beijing.myqcloud.com/GPN7600_179.bin) [<img alt="Static Badge" src="https://img.shields.io/badge/NMU_APP-GPN7600_179.bin-purple">](https://version-1301999062.cos.ap-beijing.myqcloud.com/GPN7600_179NMU.bin) [<img alt="Static Badge" src="https://img.shields.io/badge/FPGA-1058_SP25_vlan_1030.bin-purple">](https://version-1301999062.cos.ap-beijing.myqcloud.com/fpga_code_1058_SP25_vlan_1030.bin) 
 
-##### netconf配置
+♦&nbsp;&nbsp;netconf配置
 
 ```
 netconf_datastore cucc
@@ -34,7 +34,7 @@ env set NETCONF=CUCC
 > 移动管控需额外配置：netconf cmcc callhome enable  
 > ```
 
-##### dhcpr配置
+♦&nbsp;&nbsp;dhcpr配置
 
 ```
 dhcpr enable
@@ -42,19 +42,19 @@ dhcpr serverip add x.x.x.x         ## serverip需要联通提供！
 dhcpr gcc relay enable
 ```
 
-##### dhcpc配置
+♦&nbsp;&nbsp;dhcpc配置
 
 ```
 dhcpc gcc enable                   ## 谨慎配置，一般远端配置，本端不配置
 dhcpc enable
 ```
 
-##### 资源管理-->设备信息管理-->网元信息管理，点击“增加”。
+♦&nbsp;&nbsp;资源管理-->设备信息管理-->网元信息管理，点击“增加”。
 
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202312061008861.png"/>
 
-##### 查看SDN文件是否下载
+♦&nbsp;&nbsp;查看SDN文件是否下载
 
 ```
 show ver
@@ -68,7 +68,7 @@ environment show
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202312061144514.png" style="zoom:50%;" />
 
-##### 检查830端口是否打开
+♦&nbsp;&nbsp;检查830端口是否打开
 
 ```
 show running-config sdn
@@ -76,13 +76,13 @@ show running-config sdn
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202312061145831.png" style="zoom: 50%;" />
 
-查看ofcd进程
+♦&nbsp;&nbsp;查看ofcd进程
 
 ```
 show task
 ```
 
-查看dhcpr配置是否正确
+♦&nbsp;&nbsp;查看dhcpr配置是否正确
 
 ```
 show running-config dhcpr
@@ -90,7 +90,7 @@ show running-config dhcpr
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202312061147122.png" style="zoom:50%;" />
 
-查看dhcpc配置是否正确
+♦&nbsp;&nbsp;查看dhcpc配置是否正确
 
 ```
 show running-config dhcpc                ## 谨慎操作，操作不当会篡改对端信息导致托管
@@ -110,9 +110,9 @@ show ssh-peer information
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202312061247071.png" style="zoom:50%;" /> 
 
-##### 根据场景需求，A6设备上线分为两种：
+根据场景需求，A6设备上线分为<u>两种</u>：
 
-<strong>远端603G（包括变种710D等型号）</strong>
+♦&nbsp;&nbsp;<strong>远端603G（包括变种710D等型号）</strong>
 
 U设备：
 
@@ -146,7 +146,7 @@ managevlan 4000
 exit
 ```
 
-##### <strong>GPN800(小800)</strong>
+##### ♦&nbsp;&nbsp;<strong>GPN800(小800)</strong>
 
 U设备：
 
@@ -170,7 +170,7 @@ interface gcc 1/1
 config gcc-channel peerport 1 14 1 7 client
 ```
 
-##### 管控平台需要添加DHCP relay
+♦&nbsp;&nbsp;<strong>管控平台需要添加DHCP Relay</strong>
 
 DHCP Relay地址为U设备环回地址，地址池范围为掩码可用ip范围。
 
@@ -179,9 +179,9 @@ DHCP Relay地址为U设备环回地址，地址池范围为掩码可用ip范围�
 
 查看A设备是否上线成功。
 
-> [!Note]
+> [!warning]谨慎操作☠:
 >
-> 调试开关（谨慎操作）:底层打开XML日志命令,
+> 底层打开XML日志命令,
 >
 > ```
 > grosadvdebug                                   

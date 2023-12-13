@@ -19,7 +19,7 @@
 | **OTP5600-GEJD-RRFF** | `双向EDFA模块`，`东向增益22-35dB`，`西向增益22-35dB`，`2个FE OSC模块` |
 | **OTP5600-GEJD-QRGF** | `双向EDFA模块`，`东向增益15-25dB`，`西向增益22-35dB`，`1个GE OSC模块`、`1个FE OSC模块` |
 
-> ![Static Badge](https://img.shields.io/badge/%E2%80%9CP%E2%80%9D-%E5%A2%9E%E7%9B%8A_8~18dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CQ%E2%80%9D-%E5%A2%9E%E7%9B%8A_15~25dB-blue),![Static Badge](https://img.shields.io/badge/%E2%80%9CR%E2%80%9D-%E5%A2%9E%E7%9B%8A_22~35dB-blue)
+> <u>P</u>增益8~18,  <u>Q</u>增益15~25, <u> R</u>增益22~35
 
 ## 业务板卡
 

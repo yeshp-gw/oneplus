@@ -83,14 +83,14 @@ root  /var/www/html/gitbook；   ## html后面添加gitbook
 ### nginx
 
 ```
-systemctl status nginx.service     ## 运行状态
-nginx -v       ##版本号
-```
-
-```
 systemctl start nginx     ##启动
 systemctl stop nginx      ##停止
 systemctl reload nginx    ##重载
+```
+
+```
+systemctl status nginx.service     ## 运行状态
+nginx -v       ##版本号
 ```
 
 ```

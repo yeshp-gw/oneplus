@@ -12,7 +12,7 @@
 
 [sysfile_OLS20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B016_OTP5600_OLS20.bin)  
 
-[sysfile_OTE20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B017_OTP5600_OTE20.bin)  <font color="white">----------------------------------------------------------------------</font>截止12.9号，测试部最新版本！
+[sysfile_OTE20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B017_OTP5600_OTE20.bin)  <font color="white">--------------------------------------------------------------</font>截止12.9号，测试部最新版本！
 
 <!--endsec-->
 
