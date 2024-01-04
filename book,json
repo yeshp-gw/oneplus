@@ -1,0 +1,93 @@
+{
+   "title": "北京格林威尔科技发展有限公司",
+   "language": "zh-hans",
+   "author" : "yeshp",
+   "description":"工作笔记",
+   "gitbook": ">=3.2.0",
+   "styles": {
+                 "website": "styles/custom.css"
+    },
+    "links" : {
+                    "sidebar" : {
+                                     "Home Page":"http://www.gwtt.com/"
+                    }
+    },
+
+    "plugins": [   
+                    "hide-element",
+                    "flexible-alerts",
+                    "insert-logo",
+                    "-sharing","sharing-plus",
+                    "-lunr", "-search", "search-pro",
+                    "auto-scroll-table",
+                    "chart",
+                    "youtube",
+                    "katex",
+                    "tbfed-pagefooter",
+                    "sectionx",
+                    "click-reveal",
+                    "accordion",
+                    "sidebar-style@1.0.2",
+                    "mcqx"
+    ],
+
+
+"pluginsConfig": {    
+                    "hide-element": { 
+                                        "elements": [ 
+                                                       ".gitbook-link"
+                                        ]                            
+    },
+                    "insert-logo":  {                       
+                                        "url": "image/gw.png",
+                                        "style": "background: none; max-height: 80px; min-height: 30px"
+                    },
+                    "anchor-navigation-ex":  {
+                                                    "showLevel": false, 
+                                                    "showGoTop": false 
+                    },
+                    "code": {
+                               "copyButtons": false  
+                    },
+                    "flexible-alerts": {   "style": "callout",
+                                                "answer": {
+                                                                "label":  "回复:"
+                                                },
+                                                "warning": { 
+                                                                "label":  "调试开关"
+                                                },
+                                                "danger": {
+                                                                "label": "危险"
+                                                },
+                                                "question": {
+                                                                "label":  "问题",
+                                                                "icon":  "fa fa-question-circle",
+                                                                "className":  "info"
+                                                },
+                                                "comment": {
+                                                                "label":  "参数",
+                                                                "icon":  "fa fa-comments",
+                                                                "className":  "info"
+                                                }
+                        },
+                        "tbfed-pagefooter": {
+                                                "copyright":"Copyright &copy 2023",
+                                                "modify_label": "该文章修订时间：",
+                                                "modify_format": "YYYY-MM-DD HH:mm:ss"
+
+                        },
+                        "page-toc-button": {
+                                                "maxTocDepth": 1.5,  
+                                                "minTocSize": 1.5    
+                        },
+                             "sectionx": {
+                                                "tag": "b"
+                        },
+                        "sidebar-style": {
+                                                "title": "TECHNOLOGY",
+                                                "author": "yeshp"
+                                         }
+
+
+    }
+}

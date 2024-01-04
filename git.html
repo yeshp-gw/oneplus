@@ -21,10 +21,6 @@
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-alerts/style.css">
-                
-            
-                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-flexible-alerts/style.css">
                 
             
@@ -45,19 +41,11 @@
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-auto-scroll-table/website.css">
                 
             
                 
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
                 
             
                 
@@ -74,14 +62,6 @@
             
                 
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-click-reveal/click_reveal.css">
-                
-            
-                
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-mcqx/mcqx.css">
                 
             
                 
@@ -511,7 +491,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><ul><li><span class="title-icon "></span><a href="#git"><b></b>git</a></li><li><span class="title-icon "></span><a href="#gitbook&#x90E8;&#x7F72;&#x5728;vps"><b></b>gitbook&#x90E8;&#x7F72;&#x5728;VPS</a></li><li><span class="title-icon "></span><a href="#nginx"><b></b>nginx</a></li></ul></ul></ul></div><h3 id="git"><a name="git" class="anchor-navigation-ex-anchor" href="#git"><i class="fa fa-link" aria-hidden="true"></i></a>git</h3>
+                                <h3 id="git">git</h3>
 <p>&#x521B;&#x5EFA;&#x5206;&#x652F;</p>
 <pre><code>git checkout -b gh-pages
 </code></pre><p>&#x5207;&#x6362;&#x5206;&#x652F;</p>
@@ -529,7 +509,7 @@
 </code></pre><p>&#x672C;&#x5730;&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7AEF;</p>
 <pre><code>git push -u origin master
 </code></pre><hr>
-<h3 id="gitbook&#x90E8;&#x7F72;&#x5728;vps"><a name="gitbook&#x90E8;&#x7F72;&#x5728;vps" class="anchor-navigation-ex-anchor" href="#gitbook&#x90E8;&#x7F72;&#x5728;vps"><i class="fa fa-link" aria-hidden="true"></i></a>gitbook&#x90E8;&#x7F72;&#x5728;VPS</h3>
+<h3 id="gitbook&#x90E8;&#x7F72;&#x5728;vps">gitbook&#x90E8;&#x7F72;&#x5728;VPS</h3>
 <pre><code>cd /var/www/html/
 </code></pre><pre><code>mkdir gitbook
 </code></pre><pre><code>cd gitbook
@@ -539,7 +519,7 @@ git pull origin gh-pages                ##&#x62C9;&#x53D6;html
 </code></pre><pre><code>vim /etc/nginx/sites-available/default    ##&#x8BBE;&#x7F6E;nginx
 </code></pre><pre><code>root  /var/www/html/gitbook&#xFF1B;   ## html&#x540E;&#x9762;&#x6DFB;&#x52A0;gitbook
 </code></pre><hr>
-<h3 id="nginx"><a name="nginx" class="anchor-navigation-ex-anchor" href="#nginx"><i class="fa fa-link" aria-hidden="true"></i></a>nginx</h3>
+<h3 id="nginx">nginx</h3>
 <pre><code>systemctl start nginx     ##&#x542F;&#x52A8;
 systemctl stop nginx      ##&#x505C;&#x6B62;
 systemctl reload nginx    ##&#x91CD;&#x8F7D;
@@ -593,7 +573,7 @@ kill -9 pid            ##&#x6740;&#x6B7B;&#x8FDB;&#x7A0B;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"git","level":"5.2","depth":1,"next":{"title":"xshell","level":"5.3","depth":1,"path":"xshell.md","ref":"xshell.md","articles":[]},"previous":{"title":"Markdown","level":"5.1","depth":1,"path":"markdown.md","ref":"markdown.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","alerts","flexible-alerts","splitter","hide-element","audio_image","code","insert-logo","-sharing","sharing-plus","-lunr","-search","search-pro","custom-favicon","anchor-navigation-ex","github","auto-scroll-table","-exercises","-quizzes","-prism-themes","-highlight","chart","youtube","katex","-expandable-chapters","advanced-emoji","-copy-code-button","-pageview-count","tbfed-pagefooter","-page-toc-button","-ancre-navigation","sectionx","click-reveal","mcqx","accordion","sidebar-style","-versions-select"],"styles":{"website":"styles/custom.css"},"pluginsConfig":{"sidebar-style":{"author":"yeshp","title":"TECHNOLOGY"},"tbfed-pagefooter":{"copyright":"Copyright &copy 2023","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"flow":"typescript"},"ignore":["mermaid","eval-js"]},"youtube":{},"github":{"url":"https://github.com/yeshp-gw/version/releases"},"splitter":{},"search-pro":{},"accordion":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"auto-scroll-table":{},"code":{"copyButtons":false},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"click-reveal":{},"audio_image":{},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":false,"showLevel":false},"favicon":"icon/favicon.ico","page-toc-button":{"maxTocDepth":1.5,"minTocSize":1.5},"back-to-top-button":{},"alerts":{},"custom-favicon":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"危险"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"调试开关"},"answer":{"label":"回复:"},"question":{"label":"问题","icon":"fa fa-question-circle","className":"info"},"comment":{"label":"参数","icon":"fa fa-comments","className":"info"}},"versions":{"options":[{"value":"https://www.mapull.com/gitbook/api/","text":"下载专区"},{"value":"https://www.mapull.com/gitbook/default/","text":"默认主题","selected":true}]},"advanced-emoji":{"embedEmojis":false},"sharing":{"weibo":false,"google":false,"twiter":false,"all":["qq"]},"mcqx":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"chart":{"type":"c3"},"insert-logo":{"style":"background: none; max-height: 80px; min-height: 30px","url":"image/gw.png"}},"theme":"default","author":"yeshp","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"北京格林威尔科技发展有限公司","language":"zh-hans","links":{"sidebar":{"Home Page":"http://www.gwtt.com/"}},"gitbook":"3.2.3"},"file":{"path":"git.md","mtime":"2023-12-12T00:55:50.446Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-12-14T08:57:19.879Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"git","level":"5.2","depth":1,"next":{"title":"xshell","level":"5.3","depth":1,"path":"xshell.md","ref":"xshell.md","articles":[]},"previous":{"title":"Markdown","level":"5.1","depth":1,"path":"markdown.md","ref":"markdown.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","-alerts","flexible-alerts","splitter","-hide-element","audio_image","code","insert-logo","-sharing","-sharing-plus","-lunr","-search","search-pro","-custom-favicon","-anchor-navigation-ex","-github","auto-scroll-table","-exercises","-quizzes","-prism-themes","-highlight","chart","youtube","katex","-expandable-chapters","-advanced-emoji","-copy-code-button","-pageview-count","tbfed-pagefooter","-page-toc-button","-ancre-navigation","sectionx","click-reveal","-mcqx","accordion","sidebar-style@1.0.2","-versions-select"],"styles":{"website":"styles/custom.css"},"pluginsConfig":{"sidebar-style":{"author":"yeshp","title":"TECHNOLOGY"},"tbfed-pagefooter":{"copyright":"Copyright &copy 2023","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"flow":"typescript"},"ignore":["mermaid","eval-js"]},"youtube":{},"github":{"url":"https://github.com/yeshp-gw/version/releases"},"splitter":{},"search-pro":{},"accordion":{},"auto-scroll-table":{},"code":{"copyButtons":false},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"click-reveal":{},"audio_image":{},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"showLevel":false,"showGoTop":false},"favicon":"./favicon.ico","page-toc-button":{"maxTocDepth":1.5,"minTocSize":1.5},"back-to-top-button":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"危险"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"callout","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"调试开关"},"answer":{"label":"回复:"},"question":{"label":"问题","icon":"fa fa-question-circle","className":"info"},"comment":{"label":"参数","icon":"fa fa-comments","className":"info"}},"versions":{"options":[{"value":"https://www.mapull.com/gitbook/api/","text":"下载专区"},{"value":"https://www.mapull.com/gitbook/default/","text":"默认主题","selected":true}]},"sharing":{"weibo":false,"google":false,"twiter":false,"all":["qq"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"chart":{"type":"c3"},"insert-logo":{"style":"background: none; max-height: 80px; min-height: 30px","url":"image/gw.png"}},"theme":"default","author":"yeshp","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"北京格林威尔科技发展有限公司","language":"zh-hans","links":{"sidebar":{"Home Page":"http://www.gwtt.com/"}},"gitbook":"*","description":"工作笔记"},"file":{"path":"git.md","mtime":"2023-12-12T00:55:50.446Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-01-04T08:23:20.448Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -607,19 +587,11 @@ kill -9 pid            ##&#x6740;&#x6B7B;&#x8FDB;&#x7A0B;
         
     
         
-        <script src="gitbook/gitbook-plugin-alerts/plugin.js"></script>
-        
-    
-        
         <script src="gitbook/gitbook-plugin-flexible-alerts/plugin.js"></script>
         
     
         
         <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-hide-element/plugin.js"></script>
         
     
         
@@ -631,19 +603,11 @@ kill -9 pid            ##&#x6740;&#x6B7B;&#x8FDB;&#x7A0B;
         
     
         
-        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
-        
-    
-        
         <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
         
     
         
         <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
         
     
         
@@ -660,18 +624,6 @@ kill -9 pid            ##&#x6740;&#x6B7B;&#x8FDB;&#x7A0B;
     
         
         <script src="gitbook/gitbook-plugin-click-reveal/click_reveal.js"></script>
-        
-    
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-mcqx/js.cookie.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-mcqx/mcqx.js"></script>
         
     
         
