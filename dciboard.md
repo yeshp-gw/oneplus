@@ -72,7 +72,6 @@
 
 - 概念图
 
-
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/GNSwFRWudlskE3y.png" alt="image.png" style="zoom:53%;" /> OP<font color="white">-------</font> <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/So6OKZHdQT2iFuc.png" alt="image.png" style="zoom: 60%;" /> GPTM<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/oqkMEtraAKyxzVi.png" alt="image.png" style="zoom: 60%;" />  OCM<font color="white">-----</font>  <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/So6OKZHdQT2iFuc.png" alt="image.png" style="zoom: 60%;" />OTDR
 
 - 实物图
@@ -81,6 +80,31 @@
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OLP.png" style="zoom:60%;" /> OP<font color="white">------</font><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PTM-W.png" style="zoom:69%;" />时钟
 
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OCM.png" style="zoom:73%;" /> OCM<font color="white">-</font><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/OTDR.png" style="zoom:82%;" />OTDR
+
+## 光层板卡
+
+**BA板卡**
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202401041504972.png"/>
+
+**PA板卡**
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/202401041501178.png"/>
+
+**相关查询命令**
+
+```
+interface wdm_oa  [<slot/port>]   进入光放板卡的EDFA端口
+set voa attenuation <value>       设置VOA值，范围: 2.5-20dB
+```
+
+```
+get pin                           获取输入功率
+get pout                          获取输出功率
+get gain                          获取目标增益
+get voa attenuation               获取VOA值
+get wave                          获取工作波长
+```
 
 ## 其他相关仪表器件
 

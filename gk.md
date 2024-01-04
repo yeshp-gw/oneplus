@@ -28,7 +28,7 @@ netconf enable
 env set NETCONF=CUCC    
 ```
 
-> [!Note]
+> [!NOTE]
 >
 > ```
 > 移动管控需额外配置：netconf cmcc callhome enable  

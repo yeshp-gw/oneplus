@@ -177,13 +177,13 @@ poster="https://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/5262199b3
 **选择题**
 
 ```python
-{%mcq ans="o4"%}
-{%title%} 卧薪尝胆说的哪位历史人物?
-{%o1%} 夫差
-{%o2%} 范蠡
-{%o3%} 管仲
-{%o4%} 勾践
-{%endmcq%}
+%mcq ans="o4"%
+%title% 卧薪尝胆说的哪位历史人物?
+%o1%} 夫差
+%o2%} 范蠡
+%o3%} 管仲
+%o4%} 勾践
+%endmcq%
 ```
 
 <strong>according</strong>
@@ -194,5 +194,30 @@ poster="https://1301999062.vod-qcloud.com/bd28f392vodtranscq1301999062/5262199b3
 - 内容部分第2行
 - 内容部分第3行
 %/accordion%
+```
+
+**flexible-alerts插件**
+
+```
+Info styling
+> [!NOTE]
+> An alert of type 'note' using global style 'callout'.
+
+Info flat
+> [!NOTE|style:flat]
+> An alert of type 'note' using alert specific style 'flat' which overrides global style 'callout'.
+
+Tip style
+> [!TIP|style:flat|label:My own heading|iconVisibility:hidden]
+> An alert of type 'tip' using alert specific style 'flat' which overrides global style 'callout'.
+> In addition, this alert uses an own heading and hides specific icon.
+
+Warning styling
+> **[!WARNING] For warning**
+> Use this for warning messages.
+
+danger styling
+> **[!DANGER] For danger**
+> Use this for danger messages.
 ```
 
