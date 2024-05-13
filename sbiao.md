@@ -46,6 +46,58 @@
 
 {% endchart %}
 
+<center>2023差旅统计</center>
+
+{% chart %}
+
+{
+    "data": {
+         x: 'x',
+        columns: [
+                      ['x',1,2,3,4,5,6,7,8,9,10,11,12],
+                      ['天数', 12, 8,31 , 23, 0, 0,0,0,0,0,0,0],
+                      ['开销', 4380,  2900, 12000, 8500, 1000, 1000,1000,1000,1000,1000,1000,1000]
+           ], 
+        axes: {
+                    开销: 'y2'
+        },
+        types: {
+                 开销: 'bar' // ADD
+        },
+        labels: true,
+        type:'spline'
+    },
+    axis: {
+                y: {
+                            label: { // ADD
+                                           text: '天数',
+                                           position: 'outer-middle'
+                            }
+                },
+                y2: {
+                               show: true,
+                               label: { // ADD
+                                            text: '开销(单位：元)',
+                                            position: 'outer-middle'  // 标签页位置
+                       }
+                },
+                x: {
+                                type: 'category',                           
+                                tick: {
+                                            rotate: 0,   // x轴数字的倾斜度，-70：向左倾斜70°
+                                            multiline: false
+                                },
+                                    height: 0   // 标签与x轴的距离差
+                }
+          },title:{text:'8888'}
+}
+
+{% endchart %}
+
+
+
+<center>2024差旅统计</center>
+
 
 
 <div id="chart"></div>
@@ -80,4 +132,4 @@
          text: "饮料销售走抛图"
       },
  });
-</script>
+

@@ -32,7 +32,7 @@
 
 <div align="center"> <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/93AUo6VtNkfnilc.png" style="zoom:80%;" /> </div>
 
-- 电信定制
+- 电信定制（含研究院型号）
 
 
 <center><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PDSD-T2B2png.png" style="zoom: 69%;" /></center>
@@ -40,7 +40,63 @@
 
 <center><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/PUSD-M10Q2B2-1.png" style="zoom:63%;" /></center>
 
-板卡的详细参数与功能如下：
+&emsp;&emsp;研究院对应型号：
+
+<table>
+    <tr>
+        <th><center>产品名称</center></th><th><center>GW对应</center></th><th><center>未含税单价</center></th>
+    </tr>
+    <tr>
+        <td rowspan="5"><center>机框公共单元</center></td><td>DC</td><td>-</td>
+    </tr>
+    <tr>
+        <td>FAN</td><td>-</td>
+    </tr>
+    <tr>
+        <td>MCU-T</td><td>-</td>
+    </tr>
+    <tr>
+        <td>MCU-O</td><td>-</td>
+    </tr>
+    <tr>
+        <td>SIE</td><td>-</td>
+    </tr>
+    <tr>
+        <td ><center>OTS20光层机框</center></td><td>OTS20</td><td>5840</td>
+    </tr>
+    <tr>
+        <td ><center>OTE20电层机框</center></td><td>OTE20</td><td>5840</td>
+    </tr>
+    <tr>
+        <td ><center>OA</center></td><td>OA</td><td>26955</td>
+    </tr>
+    <tr>
+        <td ><center>MUX48</center></td><td>MUX48</td><td>5400</td>
+    </tr>
+    <tr>
+        <td ><center>OP1</center></td><td>OP1</td><td>4986</td>
+    </tr>
+    <tr>
+        <td ><center>T2B2</center></td><td>T2B2</td><td>11646</td>
+    </tr>
+    <tr>
+        <td ><center>T4B4</center></td><td>T4B4</td><td>暂未获悉价格</td>
+    </tr>
+    <tr>
+        <td ><center>M10Q2B2</center></td><td>M10Q2B2 V2.01</td><td>16612</td>
+    </tr>
+    <tr>
+        <td ><center>200G DCO-H</center></td><td>GWS-CDHD-DC00NL-GXA</td><td>25709</td>
+    </tr>
+    <tr>
+        <td ><center>QSFP28(LR4)</center></td><td>GWS-QOLN-DL4L4L</td><td>2612</td>
+    </tr>
+    <tr>
+        <td ><center>SFP+(LR1)</center></td><td>SFP+-10G-S13LC-10D-D</td><td>120</td>
+    </tr>
+</table>
+
+通用板卡的详细参数与功能如下：
 
 <font size="4"><strong>OTP5600-PDSD</strong></font>
 

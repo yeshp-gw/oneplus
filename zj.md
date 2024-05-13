@@ -4,6 +4,8 @@
 
 [直达郑州](#zz)
 
+[直达南通](#nt)
+
 ### 三门峡
 
 [三门峡，这是地方冬天可以观赏美丽的天鹅，本次出差无缘。](https://baike.baidu.com/item/三门峡市天鹅湖城市湿地公园/9988908)
@@ -239,4 +241,48 @@ ofagent enable
 <img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/8ge.gif"/>
 
 [管控测试文档|点击下载](https://version-1301999062.cos.ap-beijing.myqcloud.com/%E4%B8%AD%E5%9B%BD%E8%81%94%E9%80%9AOTN-CPE%E8%AE%BE%E5%A4%87%E7%AE%A1%E6%8E%A7%E6%8E%A5%E5%8F%A3_%E7%8E%B0%E7%BD%91%E8%AF%95%E7%82%B9%E6%B5%8B%E8%AF%95%E6%96%B9%E6%A1%88_GW.pdf)
+
+## <span id="nt"></span>南通
+
+南通，家纺四件套出名，有山姆商店，经济实力相当强，苏F牌照。
+
+作为2024年第一波，今年的工作主打一个合适就行，端正下交流态度，自身也要断舍离。
+
+##### 组网方式
+
+<center><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%8D%97%E9%80%9A%E7%94%B5%E4%BF%A1DCI-BOX%E4%B8%89%E7%82%B9%E7%8E%AF.png" style="zoom:50%;" /></center>
+
+<center><img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_17066621541415.png"/></center>
+
+南通电信DCI-BOX三点环；（<u>长桥</u>、易家桥、苏通产业园）主备路由。
+
+##### 网管方式
+
+直连网管；  长桥3楼设备，4楼网管机，中间经过交换机。
+
+##### 设备型号
+
+|  设备型号  |   数量    |
+| :--------: | :-------: |
+| OTP5600-II | <u>13</u> |
+
+##### 位置
+
+`易家桥` &emsp;[江苏省南通市崇川区工农路129号](https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx=120.883071&pointy=32.008432999999997&name=%E5%B7%A5%E5%86%9C%E8%B7%AF129%E5%8F%B7&addr=%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E9%80%9A%E5%B8%82%E5%B4%87%E5%B7%9D%E5%8C%BA%E5%B7%A5%E5%86%9C%E8%B7%AF129%E5%8F%B7&zoomLevel=18)
+
+`长桥`&emsp;[江苏省南通市崇川区环城西路21号](https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx=120.864896&pointy=32.013057000000003&name=%E7%8E%AF%E5%9F%8E%E8%A5%BF%E8%B7%AF21%E5%8F%B7&addr=%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E9%80%9A%E5%B8%82%E5%B4%87%E5%B7%9D%E5%8C%BA%E7%8E%AF%E5%9F%8E%E8%A5%BF%E8%B7%AF21%E5%8F%B7&zoomLevel=19)
+
+`苏通产业园`&emsp;[江苏省南通市崇川区江达路](https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx=120.982778&pointy=31.823122999999999&name=%E6%B1%9F%E8%BE%BE%E8%B7%AF&addr=%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E9%80%9A%E5%B8%82%E5%B4%87%E5%B7%9D%E5%8C%BA%E6%B1%9F%E8%BE%BE%E8%B7%AF&zoomLevel=18)，南通电信云计算中心；
+
+##### 各站点配置
+
+本期DCI-BOX建设工程图纸|[点击预览](https://version-1301999062.cos.ap-beijing.myqcloud.com/%E5%9B%BE%E7%BA%B824.1.17--2023%E5%B9%B4%E5%8D%97%E9%80%9A%E7%94%B5%E4%BF%A1DCI-BOX%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B.pdf)
+
+配置预览：
+
+<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%8D%97%E9%80%9ADCI-BOX%E9%85%8D%E7%BD%AE%E6%B8%85%E5%8D%95.jpg"/>
+
+波道规划：<img src="https://gitbook-pic-1301999062.cos.ap-beijing.myqcloud.com/%E5%8D%97%E9%80%9A%E6%B3%A2%E9%81%93%E8%A7%84%E5%88%92" style="zoom: 25%;" />
+
+清单明细|[点击下载](https://version-1301999062.cos.ap-beijing.myqcloud.com/2023.11.15-%E6%A0%BC%E6%9E%97%E5%A8%81%E5%B0%94-%E5%8D%97%E9%80%9A%E7%94%B5%E4%BF%A1DCI%E9%85%8D%E7%BD%AE%E6%B8%85%E5%8D%95%EF%BC%8813%E6%B3%A2%EF%BC%89.xlsx)
 

@@ -1,4 +1,4 @@
-{
+﻿{
     "title": "北京格林威尔科技发展有限公司",                     
     "language": "zh-hans",
     "author" : "yeshp",
@@ -112,7 +112,7 @@
                                                 }
                         },
                         "tbfed-pagefooter": {
-                                                "copyright":"Copyright &copy 2023",
+                                                "copyright":"Copyright &copy 2024",
                                                 "modify_label": "该文章修订时间：",
                                                 "modify_format": "YYYY-MM-DD HH:mm:ss"
 

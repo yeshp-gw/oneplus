@@ -174,9 +174,15 @@ show sfp
 
 最后点击“`Click here to start it`” 启动server服务器。报错一般是电脑系统服务项开启了，关闭即可。
 
-### ~~NAT升级~~
+### NAT管理-升级手册
 
-网关网元可直接升级，非网关网元需要将网关网元当作ftp-server来升级：
+- 网关网元可直接升级；
+
+  ```
+  download ftp app x.x.x.x 76 213546 file_name
+  ```
+
+- 针对非网关网元的升级，需要将网关网元当作ftp-server来升级：
 
 1.配置网关网元ftp-server的用户名、密码
 
@@ -195,5 +201,61 @@ download  ftp file /tmp/OTP5600_V04R20C09B006.bin 192.168.51.166(PCip) 123 123 O
 
 ```
 download ftp app 133.68.70.219(loopback1 ip) root public OTP5600_V04R20C09B006.bin gpn
+```
+
+注意：当/tmp目录下长期未重启设备导致内存占用过多，可进入网关网元shell节点下先查看文件system "ls -l /tmp"，再使用命令删除文件：system "rm /tmp/文件名"
+
+
+
+### 电信NAT管理
+
+##### 1. 原理
+
+如果运营商只提供一个IP地址，而每台网元都需要至少一个IP地址进行管理，为了解决地址不足的问题，网关网元就需要启动NAT功能，网关网元配置一个公网IP地址、一个私有IP地址，非网关网元配置私网IP地址
+
+在进行NAT转换时，“内部非网关网元的私网IP +端口号”同“网关网元公网IP +端口号”是一对一静态绑定的，多个私网IP可以映射为同一个公网IP地址的不同的端口号，所以一个公网IP可以被多个私网IP地址使用。
+
+##### 2. 方式
+
+- 开启NAT功能，并添加私网IP映射。
+
+  <font color=red>私网IP+端口号830映射到公网IP+20000到20199端口</font>
+
+```
+config netagent
+config netagentmgt_ip public 132.234.25.22                          ## 网关网元-公ip
+config netagentmgt_ip private 192.168.7.10                          ## 网管网元-私ip
+config netagentmgt innerip 192.168.7.11 port 20000 mapport 830      ## 非网关网元私ip
+config netagentmgt innerip 192.168.7.12 port 20001 mapport 830      
+config netagentmgt innerip 192.168.7.13 port 20002 mapport 830
+config netagentmgt innerip 192.168.7.14 port 20003 mapport 830
+config netagentmgt innerip 192.168.7.15 port 20004 mapport 830
+config netagentmgt innerip 192.168.7.16 port 20005 mapport 830
+config netagentmgt innerip 192.168.7.17 port 20006 mapport 830
+config netagentmgt innerip 192.168.7.18 port 20007 mapport 830
+config netagentmgt innerip 192.168.7.19 port 20008 mapport 830
+config netagentmgt innerip 192.168.7.20 port 20009 mapport 830
+config netagentmgt enable
+exit
+```
+
+##### 3. 配置默认路由
+
+```
+ip route  132.252.0.0/16   132.234.25.1     ##  目标路由：服务器ip；下一跳路由：网关ip
+```
+
+##### 4. 查看配置是否生效
+
+```
+show running-config netagent
+save
+```
+
+##### 5. 如果配置错误，需要
+
+```
+erase config-file
+eboot
 ```
 
