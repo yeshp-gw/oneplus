@@ -4,17 +4,19 @@
 
 <!--sec data-title="点击下载" data-id="section0" data-show=true ces-->
 
-[OTP5600_V04R20C10B015.bin](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_V04R20C10B015.bin)
+[OTP5600_V04R20C11B024.bin](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_V04R20C11B024.bin)
 
-[OTP5600_II_V2_V04R20C10B015.bin](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_II_V2_V04R20C10B015.bin) 
+[OTP5600_II_V2_V04R20C11B024.bin](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_II_V2_V04R20C11B024.bin) 
+
+[BOOT/1.1.6](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5500_5600_UBOOT_V1.1.6.bin)
 
 [SDN](https://version-1301999062.cos.ap-beijing.myqcloud.com/dci-sdn230823.bin)
 
-[FPGA_55](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5500_V2_NMU_v1.1.fpga)，&nbsp;[FPGA_56](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_NMU_V2.24.fpga)
+[FPGA_55](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5500V2_NMU_v1.2.fpga)，&nbsp;[FPGA_56](https://version-1301999062.cos.ap-beijing.myqcloud.com/OTP5600_NMU_V2.27.fpga)
 
-[sysfile_OLS20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B016_OTP5600_OLS20.bin)  
+[sysfile_OLS20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B024_OTP5600_OLS20.bin)  
 
-[sysfile_OTE20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B017_OTP5600_OTE20.bin)  <font color="white">--------------------------------------------------------------</font>截止12.9号，测试部最新版本！
+[sysfile_OTE20](https://version-1301999062.cos.ap-beijing.myqcloud.com/sysfile_gwd_V04R20B025_OTP5600_OTE20.bin)  <font color="white">--------------------------------------------------------------</font>截止2024.05.15号，测试部最新版本！
 
 <!--endsec-->
 
